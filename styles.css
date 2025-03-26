@@ -12,9 +12,25 @@ body {
 .front_text {
     position: absolute;
     top: 0px;
-    left: 70vh;
+    left: 71vh;
     color:green;
     font-size: 60px;
     font-weight: bolder;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.front_page_mid_text {
+    border: 2px absolute red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    color:black;
+    top: 340px;
+    left: 40vh;
+}
+
+.front_zip_code {
+    position:absolute;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top: 430px;
+    left: 68vh;
 }
