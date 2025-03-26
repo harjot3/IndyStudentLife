@@ -6,7 +6,7 @@ body {
 
 .front_image {
     width: 100vw; /* Full screen width */
-    height: 100vh; /* Exactly half of the viewport height */
+    heighat: 100vh; /* Exactly half of the viewport height */
 }
 
 .front_text {
@@ -24,7 +24,7 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     position:absolute;
     color:black;
-    top: 340px;
+    top: 345px;
     left: 40vh;
 }
 
