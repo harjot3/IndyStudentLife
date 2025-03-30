@@ -18,11 +18,16 @@
 
 
     <div class = "front_zip_code">
-        <form>
-            <label for="zip_code">Enter Your Zip Code:</label>
-            <input type="number" id = "zip_code">
-        </form>
+
+        <label for="zip_code">Enter Your Zip Code:</label>
+        <input type="number" id = "zip_code" required>
+
+        <a target="_blank" href="index2.html">
+            <button onclick="save_data('zip_code')">Search</button>
+        </a>
+
     </div>
 
 </body>
+<script src="myscript.js"></script>
 </html>

@@ -6,7 +6,7 @@ body {
 
 .front_image {
     width: 100vw; /* Full screen width */
-    heighat: 100vh; /* Exactly half of the viewport height */
+    height: 100vh; /* Exactly half of the viewport height */
 }
 
 .front_text {
