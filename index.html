@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
 
+<style>
+p {
+    text-align: center;
+}
+</style>
+
 </head>
 
 <body>
@@ -19,15 +25,19 @@
 
     <div class = "front_zip_code">
 
-        <label for="zip_code">Enter Your Zip Code:</label>
-        <input type="number" id = "zip_code" required>
+            <label for="zip_code">Enter Your Zip Code:</label>
+            <input type="text" id = "zip_code" required>
 
-        <a target="_blank" href="index2.html">
-            <button onclick="save_data('zip_code')">Search</button>
-        </a>
+            <a target="_blank" href="index2.html">
+                <button onclick="savein('zip_code', 'output')">Search</button>
+            </a>
 
     </div>
 
+    <p id = "output"></p>
+
+    
+
+<script src = "myscript.js"></script>
 </body>
-<script src="myscript.js"></script>
 </html>
