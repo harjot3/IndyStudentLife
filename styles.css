@@ -28,6 +28,65 @@ body {
   top: 345px;
   left: 40vh;
 }
+/* Styling for the zip code input area */
+.front_zip_code {
+    background-color: #007BFF;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; 
+    margin: 30px auto; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adding some shadow */
+}
+
+/* Styling the label and input field */
+.front_zip_code label {
+    color: white; 
+    font-size: 18px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/* Styling for the input */
+.front_zip_code input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 70%; 
+    margin-bottom: 10px;
+    background-color: black;
+    color: white; 
+}
+
+/* Styling the button */
+.front_zip_code button {
+    background-color: #FFC107; 
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.front_zip_code button:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+/* Styling for the output text */
+#output {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; 
+    background-color: #FFDDC1;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
 
 .front_zip_code {
   position:absolute;
