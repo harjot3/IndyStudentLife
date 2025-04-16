@@ -1,0 +1,20 @@
+[
+    {
+        "address": "951 Indiana AvenueIndianapolis, IN 46202",
+        "dateInfoEntered": "2025-04-12",
+        "latitude": 39.780066,
+        "longitude": -86.173679,
+        "milesFromCampus": 0.3,
+        "name": "Taco Bell",
+        "price": "$"
+    },
+    {
+        "address": "1611 N Meridian St, Indianapolis, IN 46202",
+        "dateInfoEntered": "2025-04-14",
+        "latitude": 39.789055,
+        "longitude": -86.15695,
+        "milesFromCampus": 1.6,
+        "name": "McDonald's",
+        "price": "$"
+    }
+]

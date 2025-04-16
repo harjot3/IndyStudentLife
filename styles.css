@@ -1,9 +1,22 @@
+<<<<<<< HEAD
  body {
   padding: 0;
-  margin: 0;
-  overflow-x: hidden;
+=======
+* {
+  box-sizing: border-box;
 }
 
+body, html {
+>>>>>>> f7679e9 (BiteNow -> Indy Student Food)
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: lightblue;
+  overflow-y: scroll;
+  overflow-x:hidden;
+}
+
+<<<<<<< HEAD
 .front_image {
   width: 100vw; /* Full screen width */
   height: 100vh; /* Full viewport height */
@@ -102,14 +115,34 @@
   transform: translateX(-50%);
 }
 
+=======
+>>>>>>> f7679e9 (BiteNow -> Indy Student Food)
 #map {
-  height: 100vh;
+  height: 88vh;
   width: 100vw;
-  overflow-y: hidden;
 }
 
+<<<<<<< HEAD
 .second_page_top_text {
   position: absolute;
   top: 50px;
   left: 50px;
+=======
+.front_page_text {
+  text-align: center;
+  line-height: 200%;
+  font-family: Arial, Helvetica, sans-serif ;
+
+>>>>>>> f7679e9 (BiteNow -> Indy Student Food)
 }
+
+.bottomSecondPageText {
+  
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+

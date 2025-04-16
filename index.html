@@ -1,43 +1,77 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <title>BiteNow</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+<html lang="en">
+  <head>
+    <title>Indy Student Food</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-<style>
-p {
-    text-align: center;
-}
-</style>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
 
-</head>
-
-<body>
-    <img src="images/pexels-ella-olsson-572949-1640773 (1).jpg" alt="Food Image" class="front_image">
-
-    <h1 class = "front_text"> BiteNow </h1>
-
-    <div class="front_page_mid_text">
-        <h1>Good Food, Delivered Right to Your Doorstep.</h1>
-    </div>
+  </head>
+  <body>
 
 
-    <div class = "front_zip_code">
+    <div class="front_page_text">
+        <h1>Indy Student Food</h1>
+            <form action="index2.html" method="get" target="_blank">
+                <label for="uni">Choose an Indianapolis Institution</label>
+                <select id="uni" name="uni">
+                    <option value="" disabled selected></option>
+                    <option value="IUI">Indiana University, Indianapolis</option>
+                    <option value="IVYTC">Ivy Tech Community College</option>
+                    <option value="PUI">Purdue University, Indianapolis</option>
+                    <option value="UIndy">University of Indianapolis</option>
+                    <option value="MarianU">Marian University</option>
+                    <option value="ButlerU">Butler University</option>
+                    <option value="MartU">Martin University</option>
 
-            <label for="zip_code">Enter Your Zip Code:</label>
-            <input type="text" id = "zip_code" required>
+                </select>
+                <button type="submit" >Enter</button>
+            </form>
 
-            <a target="_blank" href="index2.html">
-                <button onclick="savein('zip_code', 'output')">Search</button>
-            </a>
 
-    </div>
+    <h1>Goal</h1>
+        <p>
+            The goal of Indy Student Food is for university and college students of Indianapolis, IN to conventinently<br>
+            locate affordable food options within a 4000 meter (2.5 mile) radius of their respective campus.
+        </p>
 
-    <p id = "output"></p>
+    <h1>About</h1>
+        <p>
+            Indy Student Life was created by Team Green of Ivy Tech Indianapolis' <br>
+            SDEV 265 - Systems/Software Analysis and Projects Class.<br>
+            The project was tested, coded, and developed by students <br>
+                <b>Ann, Emmanuel, Harjot, Maurice, and Ryan </b> <br><br>
+            The project utilizies <a href = "https://leafletjs.com/" target="_blank">Leaflet.js</a>- an open-source JavaScript library
+            that implements <br>
+            interactive maps. Its base map tiles are provided by <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors.<br>
+            Map data © <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors,
+            licensed under the <a href="https://opendatacommons.org/licenses/odbl/" target="_blank">Open Database License (ODbL)</a>.<br>
 
-    
+        </p>
 
-<script src = "myscript.js"></script>
-</body>
+    <h1>Technologies Used</h1>
+        <p>
+            Programming Languages: HTML, CSS, JavaScript, SQLite3 <br>
+            IDEs used: Visual Studio Code, DB Browser for SQLite<br>
+            Other Software: Git/Github, Discord, Trello, Google Docs
+        </p>
+          </div>
+
+
+  </body>
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin="">
+  </script>
+
+  <script
+    src="script.js">
+  </script>
 </html>
+
+
