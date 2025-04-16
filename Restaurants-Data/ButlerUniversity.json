@@ -1,0 +1,164 @@
+[
+    {
+        "address": "37 W 38th St, Indianapolis, IN 46208",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.82514619536293,
+        "longitude": -86.15861388161984,
+        "milesFromCampus": 1.4,
+        "name": "McDonald's",
+        "price": "$"
+    },
+    {
+        "address": "120 W 38th St, Indianapolis, IN 46208",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.825842971304844,
+        "longitude": -86.15986910082509,
+        "milesFromCampus": 1.4,
+        "name": "Subway",
+        "price": "$"
+    },
+    {
+        "address": "3801 N College Ave, Indianapolis, IN 46205",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.825824829360414,
+        "longitude": -86.1448762307696,
+        "milesFromCampus": 2.1,
+        "name": "Rally's",
+        "price": "$"
+    },
+    {
+        "address": "5603 N Michigan Rd, Indianapolis, IN 46228",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.854324129165775,
+        "longitude": -86.19389362791951,
+        "milesFromCampus": 2.6,
+        "name": "Domino's Pizza",
+        "price": "$"
+    },
+    {
+        "address": "5617 N Michigan Rd, Indianapolis, IN 46228",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.85510997177753,
+        "longitude": -86.19459127895922,
+        "milesFromCampus": 2.7,
+        "name": "McDonald's",
+        "price": "$"
+    },
+    {
+        "address": "1950 Kessler Blvd W Dr Suite C, Indianapolis, IN 46228",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.856734266345555,
+        "longitude": -86.19486508906496,
+        "milesFromCampus": 2.8,
+        "name": "Subway",
+        "price": "$"
+    },
+    {
+        "address": "5902 Michigan Rd, Indianapolis, IN 46228",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.86207609215421,
+        "longitude": -86.19836246365682,
+        "milesFromCampus": 3.1,
+        "name": "Fisher Fish & Chicken",
+        "price": "$"
+    },
+    {
+        "address": "6003 Michigan Rd, Indianapolis, IN 46228",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.863980352673465,
+        "longitude": -86.19791228688179,
+        "milesFromCampus": 3.3,
+        "name": "TAQUERIA EL CIELO",
+        "price": "$"
+    },
+    {
+        "address": "501 E 38th St, Indianapolis, IN 46205",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.82548794467309,
+        "longitude": -86.14954020449291,
+        "milesFromCampus": 1.9,
+        "name": "Domino's Pizza",
+        "price": "$"
+    },
+    {
+        "address": "23 E 38th St, Indianapolis, IN 46205",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.82495945697577,
+        "longitude": -86.15593046416285,
+        "milesFromCampus": 1.5,
+        "name": "Big City Grill & Lemonade",
+        "price": "$"
+    },
+    {
+        "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.81405029348164,
+        "longitude": -86.20254147305903,
+        "milesFromCampus": 2.9,
+        "name": "Chick-fil-A",
+        "price": "$"
+    },
+    {
+        "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.816421980601916,
+        "longitude": -86.20197271822597,
+        "milesFromCampus": 2.9,
+        "name": "Subway",
+        "price": "$"
+    },
+    {
+        "address": "1031 E 54th St, Indianapolis, IN 46220",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.852095893984384,
+        "longitude": -86.14098322197844,
+        "milesFromCampus": 1.5,
+        "name": "Mama Carolla's",
+        "price": "$$"
+    },
+    {
+        "address": "4155 Boulevard Pl, Indianapolis, IN 46208",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.83257482990729,
+        "longitude": -86.16352995854483,
+        "milesFromCampus": 0.6,
+        "name": "Hoagies and Hops Butler-Tarkington",
+        "price": "$"
+    },
+    {
+        "address": "4901 N Pennsylvania St, Indianapolis, IN 46205",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.842795462073454,
+        "longitude": -86.15442702288904,
+        "milesFromCampus": 0.5,
+        "name": "Cafe Patachou",
+        "price": "$"
+    },
+    {
+        "address": "5902 N College Ave, Indianapolis, IN 46220",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.862618843935415,
+        "longitude": -86.14613502322462,
+        "milesFromCampus": 2.3,
+        "name": "Binkley's KItchen and Bar",
+        "price": "$$"
+    },
+    {
+        "address": "5301 Winthrop Ave Suite B, Indianapolis, IN 46220",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.84974280929775,
+        "longitude": -86.14105571733525,
+        "milesFromCampus": 1.5,
+        "name": "Half Liter BBQ",
+        "price": "$"
+    },
+    {
+        "address": "5615 N Illinois St, Indianapolis, IN 46208",
+        "dateInfoEntered": "2025-04-16",
+        "latitude": 39.854709798049214,
+        "longitude": -86.15926368164195,
+        "milesFromCampus": 0.8,
+        "name": "Byrne's Grilled Pizza",
+        "price": "$"
+    }
+]
