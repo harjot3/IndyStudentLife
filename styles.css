@@ -1,13 +1,8 @@
-<<<<<<< HEAD
- body {
-  padding: 0;
-=======
 * {
   box-sizing: border-box;
 }
 
 body, html {
->>>>>>> f7679e9 (BiteNow -> Indy Student Food)
   margin: 0;
   padding: 0;
   height: 100%;
@@ -16,128 +11,20 @@ body, html {
   overflow-x:hidden;
 }
 
-<<<<<<< HEAD
-.front_image {
-  width: 100vw; /* Full screen width */
-  height: 100vh; /* Full viewport height */
-  text-align: start;
-}
-
-.front_text {
-  position: absolute;
-  top: 0px;
-  left: 71vh;
-  color: green;
-  font-size: 60px;
-  font-weight: bolder;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.front_page_mid_text { 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  position: absolute;
-  color: black;
-  top: 345px;
-  left: 40vh;
-}
-
-/* Styling for the zip code input area */
-.front_zip_code {
-  background-color: #097969; 
-  padding: 20px;
-  border-radius: 8px;
-  width: 70%; 
-  max-width: 400px; 
-  margin: 20px auto; 
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adding some shadow for effect */
-  position: absolute;
-  top: 60vh;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* Styling the label and input field */
-.front_zip_code label {
-  color: white; /* White text for the label */
-  font-size: 18px;
-  margin-right: 10px;
-  display: inline-block;
-}
-
-/* Styling for the input */
-.front_zip_code input {
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc; 
-  border-radius: 5px;
-  width: 100%; 
-  margin-bottom: 10px;
-  background-color: white; 
-  color: black;
-  box-sizing: border-box;
-}
-
-/* Styling the button */
-.front_zip_code button {
-  background-color: #FFC107; /* Yellow background for the button */
-  color: white;
-  font-size: 16px;
-  border: none;
-  padding: 12px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-/* Hover effect for the button */
-.front_zip_code button:hover {
-  background-color: #e0a800; /* Darker yellow on hover */
-}
-
-/* Styling for the output text */
-#output {
-  font-size: 20px;
-  font-weight: bold;
-  color: #333; /* Dark text */
-  background-color: #FFDDC1; 
-  padding: 15px;
-  border-radius: 8px;
-  width: 80%;
-  margin: 20px auto;
-  text-align: center;
-}
-
-.front_zip_code {
-  position: absolute;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  top: 430px;
-  left: 50%; 
-  transform: translateX(-50%);
-}
-
-=======
->>>>>>> f7679e9 (BiteNow -> Indy Student Food)
 #map {
   height: 88vh;
   width: 100vw;
 }
 
-<<<<<<< HEAD
-.second_page_top_text {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-=======
 .front_page_text {
   text-align: center;
   line-height: 200%;
   font-family: Arial, Helvetica, sans-serif ;
 
->>>>>>> f7679e9 (BiteNow -> Indy Student Food)
 }
 
 .bottomSecondPageText {
-  
+
   text-align: center;
   font-weight: bold;
 }
