@@ -6,6 +6,19 @@ const selectedUni = params.get("uni");
 
 var map;
 
+// Map of E
+
+const universities = new Map([
+    ["IUI", [39.775991, -86.176811, 14]],
+    ["IVYTC", [39.804199, -86.158626, 15]],
+    ["PUI", [39.773967, -86.172804, 14]],
+    ["UIndy", [39.709967, -86.134518,15]],
+    ["MarianU", [39.812334,  -86.204259, 15]],
+    ["ButlerU", [39.841010, -86.174033, 15]],
+    ["MartU", [39.798712, -86.104, 17]],
+]);
+
+console.log(universities.get("IUI")[0]);
 // Creating Map
 
 function createMap(lat = 39.7684, long = -86.1581, zoom_input = 10) {
@@ -64,96 +77,61 @@ function universityEntered(uni_name) {
     let zoom = 15;
     let radius;
 
+    var university;
+    var uni_file;
+
     if (uni_name) {
         document.getElementById("input").innerHTML = "You selected " + selectedUni;
+        lat = (universities.get(uni_name)[0]);
+        long = (universities.get(uni_name)[1]);
+        zoom = (universities.get(uni_name)[2]);
     } else {
         createMap();
     }
 
     if (uni_name == "IUI") {
-        let university = "Indiana University, Indianapolis";
-        document.getElementById("input").innerHTML = `<br>${university}, great choice!</br>`;
-        document.getElementById("title").innerHTML = university;
-        lat = 39.775991;
-        long =  -86.176811;
-        zoom = 14;
-
-        // adding icons near iui
-        fetchUniData('Restaurants-Data/IndianaUniversityIndianapolis.json');
+        university = "Indiana University, Indianapolis";
+        uni_file = 'Restaurants-Data/IndianaUniversityIndianapolis.json';
     }
 
     else if (uni_name == "IVYTC") {
-        let university = "Ivy Tech Community College";
-        document.getElementById("input").innerHTML = `<br>${university}- wait a second, we go there!</br>`;
-        document.getElementById("title").innerHTML = university;
-        lat = 39.804199;
-        long = -86.158626;
-        zoom = 15;
-
-        fetchUniData('Restaurants-Data/IvyTechCommunityCollege.json');
+        university = "Ivy Tech Community College";
+        uni_file = 'Restaurants-Data/IvyTechCommunityCollege.json';
     }
 
     else if (uni_name == "PUI") {
-        let university = "Purdue University, Indianapolis";
-        document.getElementById("input").innerHTML = `<br>${university}, great choice!</br>`;
-        document.getElementById("title").innerHTML = university;
-        lat = 39.773967;
-        long =  -86.172804;
-        zoom = 14;
-
-
-        fetchUniData('Restaurants-Data/PurdueUniversityIndianapolis.json');
+        university = "Purdue University, Indianapolis";
+        uni_file = 'Restaurants-Data/PurdueUniversityIndianapolis.json';
 
     }
 
     else if (uni_name == "UIndy") {
-        let university = "University of Indianapolis";
-        document.getElementById("input").innerHTML = `<br>${university}- wait, this is a thing?</br>`;
-        document.getElementById("title").innerHTML = university;
+        university = "University of Indianapolis";
 
-        lat = 39.709967
-        long = -86.134518;
-        zoom = 15;
-
-        fetchUniData('Restaurants-Data/UniversityOfIndianapolis.json');
+        uni_file = 'Restaurants-Data/UniversityOfIndianapolis.json';
     }
 
 
     else if (uni_name == "MarianU") {
-        let university = "Marian University";
-        document.getElementById("input").innerHTML = `<br>${university}, great choice!</br>`;
-        document.getElementById("title").innerHTML = university;
-        lat = 39.812334;
-        long = -86.204259;
-        zoom = 15;
-
-        fetchUniData('Restaurants-Data/MarianUniversity.json');
+        university = "Marian University";
+        uni_file = 'Restaurants-Data/MarianUniversity.json';
     }
 
     else if (uni_name == "ButlerU") {
-        let university = "Butler University";
-        document.getElementById("input").innerHTML = `<br>${university}, great choice!</br>`;
-        document.getElementById("title").innerHTML = university;
-        lat = 39.841010;
-        long = -86.174033;
-        zoom = 15;
-
-        fetchUniData('Restaurants-Data/ButlerUniversity.json');
+        university = "Butler University";
+        uni_file = 'Restaurants-Data/ButlerUniversity.json';
     }
 
     else if (uni_name == "MartU") {
-        let university = "Martin University";
-        document.getElementById("input").innerHTML = `<br>${university}, great choice!</br>`;
-        document.getElementById("title").innerHTML = university;
-        lat = 39.798712;
-        long = -86.104;
-        zoom = 17;
-
-        fetchUniData('Restaurants-Data/MartinUniversity.json');
+        university = "Martin University";
+        uni_file = 'Restaurants-Data/MartinUniversity.json';
     } else {
         createMap();
     }
 
+    document.getElementById("title").innerHTML = university;
+    document.getElementById("input").innerHTML = `<br>${university}, great choice!</br>`;
+    fetchUniData(uni_file);
     createMap(lat, long, zoom, radius);
 }
 
