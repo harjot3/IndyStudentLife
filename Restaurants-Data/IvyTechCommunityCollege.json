@@ -9,24 +9,6 @@
         "price": "$"
     },
     {
-        "address": "2401 N Meridian St, Indianapolis, IN 46208",
-        "dateInfoEntered": "2025-04-21",
-        "latitude": 39.80172103004116,
-        "longitude": -86.15650380596261,
-        "milesFromCampus": 0.3,
-        "name": "KFC",
-        "price": "$"
-    },
-    {
-        "address": "2401 N Meridian St, Indianapolis, IN 46208",
-        "dateInfoEntered": "2025-04-21",
-        "latitude": 39.80172103004116,
-        "longitude": -86.15650380596261,
-        "milesFromCampus": 0.3,
-        "name": "KFC",
-        "price": "$"
-    },
-    {
         "address": "2402 N Meridian St, Indianapolis, IN 46208",
         "dateInfoEntered": "2025-04-21",
         "latitude": 39.80070865291484,
@@ -185,7 +167,7 @@
         "latitude": 39.80446763821514,
         "longitude": -86.1208353178046,
         "milesFromCampus": 2.3,
-        "name": "Church's Texas Chicken",
+        "name": "Subway",
         "price": "$"
     }
 ]

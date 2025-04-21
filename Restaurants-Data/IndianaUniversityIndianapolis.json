@@ -142,5 +142,68 @@
         "milesFromCampus": 0.8,
         "price": "$",
         "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Chick-fil-A",
+        "address": "420 University Blvd Ste 120, Indianapolis, IN 46202",
+        "latitude": 39.77423796499449,
+        "longitude": -86.17632497641569,
+        "milesFromCampus": 0.4,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "Wendy's",
+        "address": "1450 W Morris St, Indianapolis, IN 46221",
+        "latitude": 39.75295998307929,
+        "longitude": -86.18652181312645,
+        "milesFromCampus": 2.1,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "Arby's",
+        "address": "45 E South St, Indianapolis, IN 46225",
+        "latitude": 39.761432892533676,
+        "longitude": -86.15715623464004,
+        "milesFromCampus": 1.3,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "Pronta Pizzeria",
+        "address": "325 W Washington St, Indianapolis, IN 46204",
+        "latitude": 39.76741961376405,
+        "longitude": -86.16445188198959,
+        "milesFromCampus": 0.5,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "Popeyes Louisiana Kitchen",
+        "address": "3021 W 16th St, Indianapolis, IN 46222",
+        "latitude": 39.78767073201898,
+        "longitude": -86.20887574708968,
+        "milesFromCampus": 1.3,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "7 Coras",
+        "address": "961 N Traub Ave, Indianapolis, IN 46222",
+        "latitude": 39.781300752261146,
+        "longitude": -86.1960647082819,
+        "milesFromCampus": 0.8,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "KFC",
+        "address": "2401 N Meridian St, Indianapolis, IN 46208",
+        "latitude": 39.80249904922504,
+        "longitude": -86.15624108518101,
+        "milesFromCampus": 2.3,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
     }
 ]

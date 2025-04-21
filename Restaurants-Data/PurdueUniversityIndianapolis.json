@@ -1,20 +1,182 @@
 [
     {
-        "address": "951 Indiana AvenueIndianapolis, IN 46202",
-        "dateInfoEntered": "2025-04-15",
+        "name": "Taco Bell",
+        "address": "951 Indiana Avenue, Indianapolis, IN 46202",
         "latitude": 39.780066,
         "longitude": -86.173679,
         "milesFromCampus": 0.6,
-        "name": "Taco Bell",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
     },
     {
+        "name": "McDonald's",
         "address": "1611 N Meridian St, Indianapolis, IN 46202",
-        "dateInfoEntered": "2025-04-15",
         "latitude": 39.789055,
         "longitude": -86.15695,
-        "milesFromCampus": 1.9,
-        "name": "McDonald's",
-        "price": "$"
+        "milesFromCampus": 1.6,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Delhi Palace",
+        "address": "901b Indiana Ave, Indianapolis, IN 46202",
+        "latitude": 39.7802,
+        "longitude": -86.1729,
+        "milesFromCampus": 0.6,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "City Barbeque",
+        "address": "621 W 11th St, Indianapolis, IN 46202",
+        "latitude": 39.7821,
+        "longitude": -86.1715,
+        "milesFromCampus": 1.0,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Black Leaf Vegan",
+        "address": "335 W 9th St, Indianapolis, IN 46202",
+        "latitude": 39.7798,
+        "longitude": -86.1650,
+        "milesFromCampus": 0.8,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Downtown Olly's",
+        "address": "822 N Illinois St, Indianapolis, IN 46204",
+        "latitude": 39.7775,
+        "longitude": -86.1596,
+        "milesFromCampus": 1.6,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Yats",
+        "address": "910 W 10th St, Indianapolis, IN 46202",
+        "latitude": 39.7790,
+        "longitude": -86.1740,
+        "milesFromCampus": 0.5,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "The Workingman's Friend",
+        "address": "234 N Belmont Ave, Indianapolis, IN 46222",
+        "latitude": 39.7720,
+        "longitude": -86.2020,
+        "milesFromCampus": 1.7,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Workingman's Friend",
+        "address": "234 N Belmont Ave, Indianapolis, IN 46222",
+        "latitude": 39.7720,
+        "longitude": -86.2020,
+        "milesFromCampus": 1.5,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Kountry Kitchen Soul Food Place",
+        "address": "1831 N College Ave, Indianapolis, IN 46202",
+        "latitude": 39.7930,
+        "longitude": -86.1410,
+        "milesFromCampus": 2.5,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Gaucho's Fire",
+        "address": "906 Carrollton Ave, Indianapolis, IN 46202",
+        "latitude": 39.7790,
+        "longitude": -86.1450,
+        "milesFromCampus": 2.3,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Subito Soups",
+        "address": "34 N Delaware St, Indianapolis, IN 46204",
+        "latitude": 39.7680,
+        "longitude": -86.1570,
+        "milesFromCampus": 1.8,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Burgeezy",
+        "address": "335 W 9th St, Ste. D, Indianapolis, IN 46202",
+        "latitude": 39.7798,
+        "longitude": -86.1650,
+        "milesFromCampus": 1.5,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Chick-fil-A",
+        "address": "420 University Blvd Ste 120, Indianapolis, IN 46202",
+        "latitude": 39.77423796499449,
+        "longitude": -86.17632497641569,
+        "milesFromCampus": 0.2,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "Wendy's",
+        "address": "1450 W Morris St, Indianapolis, IN 46221",
+        "latitude": 39.75295998307929,
+        "longitude": -86.18652181312645,
+        "milesFromCampus": 2.5,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "Arby's",
+        "address": "45 E South St, Indianapolis, IN 46225",
+        "latitude": 39.761432892533676,
+        "longitude": -86.15715623464004,
+        "milesFromCampus": 2.0,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "Pronta Pizzeria",
+        "address": "325 W Washington St, Indianapolis, IN 46204",
+        "latitude": 39.76741961376405,
+        "longitude": -86.16445188198959,
+        "milesFromCampus": 1.5,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "Popeyes Louisiana Kitchen",
+        "address": "3021 W 16th St, Indianapolis, IN 46222",
+        "latitude": 39.78767073201898,
+        "longitude": -86.20887574708968,
+        "milesFromCampus": 2.7,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "7 Coras",
+        "address": "961 N Traub Ave, Indianapolis, IN 46222",
+        "latitude": 39.781300752261146,
+        "longitude": -86.1960647082819,
+        "milesFromCampus": 1.7,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
+    },
+    {
+        "name": "KFC",
+        "address": "2401 N Meridian St, Indianapolis, IN 46208",
+        "latitude": 39.80249904922504,
+        "longitude": -86.15624108518101,
+        "milesFromCampus": 2.3,
+        "price": "$",
+        "dateInfoEntered": "2025-04-21"
     }
 ]

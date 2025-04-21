@@ -1,0 +1,173 @@
+[
+    {
+        "name": "Subway",
+        "address": "936 E Hanna Ave, Indianapolis, IN 46227",
+        "latitude": 39.708846422691536,
+        "longitude": -86.14320935654595,
+        "milesFromCampus": 0.4,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "QDOBA Mexican Eats",
+        "address": "4200 S East St Unit 42, Indianapolis, IN 46227",
+        "latitude": 39.70513267405893,
+        "longitude": -86.15099388860727,
+        "milesFromCampus": 1.0,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "El Borrego Restaurant",
+        "address": "2281 S Meridian St, Indianapolis, IN 46225",
+        "latitude": 39.73511736380714,
+        "longitude": -86.15875743360218,
+        "milesFromCampus": 2.4,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Little Caesars Pizza",
+        "address": "3400 S East St, Indianapolis, IN 46227",
+        "latitude": 39.71697706974875,
+        "longitude": -86.14954480109883,
+        "milesFromCampus": 1.0,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Wendy's",
+        "address": "5250 S East St, Indianapolis, IN 46227",
+        "latitude": 39.690115999542485,
+        "longitude": -86.14935860730787,
+        "milesFromCampus": 2.0,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "McDonald's",
+        "address": "5935 Madison Ave, Indianapolis, IN 46227",
+        "latitude": 39.68045233149558,
+        "longitude": -86.13155533910479,
+        "milesFromCampus": 2.2,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Donatos Pizza",
+        "address": "5835 Madison Ave, Indianapolis, IN 46227",
+        "latitude": 39.681574886261245,
+        "longitude": -86.13173645994641,
+        "milesFromCampus": 2.2,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Taco Bell",
+        "address": "444 E Thompson Rd, Indianapolis, IN 46227",
+        "latitude": 39.69446622143719,
+        "longitude": -86.14924656553313,
+        "milesFromCampus": 1.7,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "King Gyros",
+        "address": "3410 S East St, Indianapolis, IN 46227",
+        "latitude": 39.71696331383866,
+        "longitude": -86.14946081272907,
+        "milesFromCampus": 0.9,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Jimmy's Diner",
+        "address": "3301 Shelby St, Indianapolis, IN 46227",
+        "latitude": 39.718931991209786,
+        "longitude": -86.1390566822868,
+        "milesFromCampus": 0.6,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Church's Texas Chicken",
+        "address": "2964 Shelby St, Indianapolis, IN 46203",
+        "latitude": 39.7235463401692,
+        "longitude": -86.1398210995955,
+        "milesFromCampus": 0.9,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "White Castle",
+        "address": "2165 Shelby St, Indianapolis, IN 46203",
+        "latitude": 39.738309963069874,
+        "longitude": -86.1395707322981,
+        "milesFromCampus": 2.0,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Subway",
+        "address": "936 E Hanna Ave, Indianapolis, IN 46227",
+        "latitude": 39.708846422691536,
+        "longitude": -86.14320935654595,
+        "milesFromCampus": 0.4,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Denny's",
+        "address": "3512 S Keystone Ave, Indianapolis, IN 46227",
+        "latitude": 39.71547691242002,
+        "longitude": -86.12178276833836,
+        "milesFromCampus": 1.1,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "El Morral Mexican Restaurant",
+        "address": "2519 Albany St, Beech Grove, IN 46107",
+        "latitude": 39.722865143026596,
+        "longitude": -86.11297283240862,
+        "milesFromCampus": 2.3,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Burger King",
+        "address": "2502 E Raymond St, Indianapolis, IN 46203",
+        "latitude": 39.73848127334982,
+        "longitude": -86.11965976167055,
+        "milesFromCampus": 2.5,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Home Run Burgers & Fries",
+        "address": "2425 National Ave, Indianapolis, IN 46227",
+        "latitude": 39.712234888849466,
+        "longitude": -86.11985601585552,
+        "milesFromCampus": 1.0,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Pizza Hut",
+        "address": "2509 Albany St, Beech Grove, IN 46107",
+        "latitude": 39.72291621089574,
+        "longitude": -86.11197946622173,
+        "milesFromCampus": 2.2,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    },
+    {
+        "name": "Donut Land",
+        "address": "5055 S Dearborn St, Indianapolis, IN 46227",
+        "latitude": 39.69327499288833,
+        "longitude": -86.10906810818999,
+        "milesFromCampus": 2.0,
+        "price": "$",
+        "dateInfoEntered": "2025-04-20"
+    }
+]
