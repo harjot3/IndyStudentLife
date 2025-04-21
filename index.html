@@ -10,56 +10,66 @@
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""/>
 
+<style>
+body {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+</style>
   </head>
   <body>
 
+    <div class="topnav">
+
+        <div class = "home">
+            <a href="index.html">Indy Student Life</a>
+        </div>
+
+        <div class = "secondaryLink" >
+            <a href="about.html">About</a>
+            <a href="goal.html">Goals</a>
+        </div>
+
+    </div>
 
     <div class="front_page_text">
-        <h1>Indy Student Food</h1>
-            <form action="index2.html" method="get" target="_blank">
-                <label for="uni">Choose an Indianapolis Institution</label>
-                <select id="uni" name="uni">
-                    <option value="" disabled selected></option>
-                    <option value="IUI">Indiana University, Indianapolis</option>
-                    <option value="IVYTC">Ivy Tech Community College</option>
-                    <option value="PUI">Purdue University, Indianapolis</option>
-                    <option value="UIndy">University of Indianapolis</option>
-                    <option value="MarianU">Marian University</option>
-                    <option value="ButlerU">Butler University</option>
-                    <option value="MartU">Martin University</option>
+        <form action="index2.html" method="get" target="_blank">
+            <fieldset>
+                <legend>Enter Your Campus</legend>
 
-                </select>
-                <button type="submit" >Enter</button>
-            </form>
+                    <input type="checkbox" name="uni" value="IUI">
+                        <label for="IUI">Indiana University, Indianapolis</label>
+                            <br>
 
+                    <input type="checkbox" name="uni" value="IVYTC">
+                        <label for="IVYTC">Ivy Tech Community College</label>
+                            <br>
 
-    <h1>Goal</h1>
-        <p>
-            The goal of Indy Student Food is for university and college students of Indianapolis, IN to conventinently<br>
-            locate affordable food options within a 4000 meter (2.5 mile) radius of their respective campus.
-        </p>
+                    <input type="checkbox" name="uni" value="PUI">
+                        <label for="PUI">Purdue University, Indianapolis</label>
+                            <br>
 
-    <h1>About</h1>
-        <p>
-            Indy Student Life was created by Team Green of Ivy Tech Indianapolis' <br>
-            SDEV 265 - Systems/Software Analysis and Projects Class.<br>
-            The project was tested, coded, and developed by students <br>
-                <b>Ann, Emmanuel, Harjot, Maurice, and Ryan </b> <br><br>
-            The project utilizies <a href = "https://leafletjs.com/" target="_blank">Leaflet.js</a>- an open-source JavaScript library
-            that implements <br>
-            interactive maps. Its base map tiles are provided by <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors.<br>
-            Map data © <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> contributors,
-            licensed under the <a href="https://opendatacommons.org/licenses/odbl/" target="_blank">Open Database License (ODbL)</a>.<br>
+                    <input type="checkbox" name="uni" value="UIndy">
+                        <label for="UIndy">University of Indianapolis</label>
+                            <br>
 
-        </p>
+                    <input type="checkbox" name="uni" value="MarianU">
+                        <label for="MarianU">Marian University</label>
+                            <br>
 
-    <h1>Technologies Used</h1>
-        <p>
-            Programming Languages: HTML, CSS, JavaScript, SQLite3 <br>
-            IDEs used: Visual Studio Code, DB Browser for SQLite<br>
-            Other Software: Git/Github, Discord, Trello, Google Docs
-        </p>
-          </div>
+                    <input type="checkbox" name="uni" value="ButlerU">
+                        <label for="ButlerU">Butler University</label>
+                            <br>
+
+                    <input type="checkbox" name="uni" value="MartU">
+                        <label for="MartU">Martin University</label>
+                            <br>
+
+                    <button type="submit" >Enter</button>
+
+            </fieldset>
+        </form>
+    </div>
 
 
   </body>
