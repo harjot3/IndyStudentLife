@@ -1,5 +1,5 @@
 :root {
-  --margin_left : 200px;
+  --background_color_blue: cornflowerblue;
 }
 
 * {
@@ -11,8 +11,8 @@
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color:cornflowerblue;
-    overflow-y: hidden;
+    background-color:var(--background_color_blue);
+    overflow-y: auto;
     overflow-x: hidden;
   }
 
@@ -21,28 +21,35 @@
     width: 97.5vw;
   }
 
-  .front_page_text {
-    margin-left: 100px;
-    margin-right: 100px;
-    line-height: 200%;
-    font-family: Arial, Helvetica, sans-serif ;
-
-
-
+  /* Winky Rough Font */
+  .winky-rough{
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
   }
 
-  .bottomSecondPageText {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    font-weight: bold;
+  /* Funnel Display Font */
+  .funnel-display {
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
   }
 
+  /* Rubik Font */
+  .rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
 
-/* Nav bar */
+  /* Nav bar */
   .topnav {
     background-color:blueviolet;
     padding: 20px;
-    font-family:monospace;
+    font-family: "Funnel Display", sans-serif;
     justify-content:space-between ;
     display: flex;
     flex-wrap: wrap;
@@ -63,64 +70,137 @@
     text-decoration: none;
   }
 
-  .home a {
-    color: white;
-    margin-left: 300px;
-    font-size: 30px;
+  /* Main Function Front Page */
+    .checkBox {
+      border: none;
+      font-family: "Rubik", sans-serif;
+      width: auto;
+      display: flex;
+      justify-content: flex-start;
+      line-height: 200%;
+    }
+
+    .front_page_text {
+      font-family: "Winky Rough", sans-serif;
+      text-align: center;
+      line-height: 175%;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .titleNavBar a {
+      color: white;
+    }
+
+    .secondaryLinkNavBar a {
+      color:white;
+    }
+
+
+  .bottomSecondPageText {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
   }
 
-  .secondaryLink a {
-    color:white;
-    margin-right: 20px;
-    font-size: 30px;
+
+
+/* Media Queries for different Display Sizes - Mobile First */
+
+  /* Below Mobile S < 320px  */
+  @media (min-width: 0px) {
+    .checkBox {
+      margin-left: 20px;
+      font-size: 15px;
+      line-height: 200%;
+    }
+
+    .front_page_text {
+      font-size: 28px;
+      line-height: 150%;
+    }
+
+    .titleNavBar a {
+      margin-left: 0px;
+      font-size: 10px;
+    }
+
+    .secondaryLinkNavBar a {
+      margin-right: 0px;
+      font-size: 10px;
+    }
+  }
+
+  /* Mobile S - 320px */
+  @media (min-width: 320px) {
+    .checkBox {
+      margin-left: 20px;
+      font-size: 15px;
+      border: none;
+      line-height: 200%;
+    }
+
+    .front_page_text {
+      font-size: 28px;
+      line-height: 150%;
+    }
+
+    .titleNavBar a {
+      margin-left: 0px;
+      font-size: 10px;
+
+    }
+
+    .secondaryLinkNavBar a {
+      margin-right: 0px;
+      font-size: 10px;
+
+    }
+  }
+
+  /* Mobile L - 425px */
+  @media (min-width: 425px) {
+
+  }
+
+  /* Tablet - 768px */
+  @media (min-width: 768px) {
+
+  }
+
+  /* Laptop - 1024px */
+  @media (min-width: 1024px) {
+    .titleNavBar a {
+      margin-left: 106px;
+    }
+  }
+
+  /* Laptop L - 1440px */
+  @media (min-width: 1440px) {
+    .checkBox {
+      margin-left: 60px;
+      font-size: 25px;
+    }
+
+    .front_page_text {
+      font-size: 35px;
+      line-height: 150%;
+    }
+
+    .titleNavBar a {
+      margin-left: 0px;
+      font-size: 35px;
+    }
+
+    .secondaryLinkNavBar a {
+      margin-right: 30px;
+      font-size: 35px;
+    }
   }
 
 
-/* Media Queries for different Display Sizes */
-
-  /* Description of Display Size */
-    @media (min-width: 0px) {
-
-      .topnav a {
-
-      }
-      .home a {
-        margin-left: 0px;
-      }
-
-      .secondaryLink a {
-        margin-right: 0px;
-      }
-    }
-
-  /* Description of Display Size */
-    @media (min-width: 553px) {
-      .home a {
-        margin-left: 100px / 10;
-      }
-
-      .secondaryLink a {
-        margin-right: 0px;
-      }
-    }
-
-  /* Description of Display Size */
-    @media (min-width: 657px) {
-      .home a {
-        margin-left: var(--margin_left);
-      }
-
-      .secondaryLink a {
-        display: inline;
-        justify-content:flex-end;
-        word-spacing: 10px;
-        margin-right: 50px;
-        padding-right: 0px;
-        gapx;
-      }
-    }
-
-/* About Page */
 
 
 

@@ -2,7 +2,14 @@ console.log('Hello!');
 
 // Get URL parameters
 const params = new URLSearchParams(window.location.search);
-const selectedUni = params.get("uni");
+
+const apples = [];
+
+for (let i = 0; i < 7; i++) {
+    const selectedUni = params.get("uni");
+    apples.push(selectedUni);
+}
+
 
 // Leaflet Map
 var map;
@@ -157,7 +164,10 @@ function fetchUniData(url) {
     });
 }
 
-universityEntered(selectedUni);
+for (let x of apples) {
+    universityEntered(x);
+    console.log(x);
+}
 
 /*
 Unused Icons:

@@ -1,87 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Indy Student Food</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <head>
+        <title>Indy Student Life</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""/>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href ="images/food1.png">
 
-<style>
-body {
-    overflow-y: auto;
-    overflow-x: auto;
-}
-</style>
-  </head>
-  <body>
+        <!-- Leaflet.js -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
 
-    <div class="topnav">
+        <!-- Winky Rough and Funnel Display Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Expanded+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
 
-        <div class = "home">
-            <a href="index.html">Indy Student Life</a>
+        <div class="topnav">
+
+            <div class = "titleNavBar">
+                <img src="images/food1.png" alt="Food Icon" width="50px" height="35px" style="margin-left: 90px;">
+                <a href="index.html">Indy Student Life</a>
+            </div>
+
+            <div class = "secondaryLinkNavBar" >
+                <a href="about.html">About</a>
+                <a href="goal.html">Goals</a>
+            </div>
+
         </div>
 
-        <div class = "secondaryLink" >
-            <a href="about.html">About</a>
-            <a href="goal.html">Goals</a>
+        <p class="front_page_text">Budget-Friendly Restauraunts & Study Spots Near <br>
+                                    Unviersties and Colleges of Indianapolis, IN</p>
+        <div = style="display: flex;">
+            <div class="checkBox">
+                <form action="index2.html" method="get" target="_blank">
+                    <fieldset style="border:none;">
+                        <legend style="text-align: center;">Choose Your Campus</legend>
+
+                                <input type="checkbox" name="uni" value="IUI">
+                                    <label for="IUI">Indiana University, Indianapolis</label>
+                                        <br>
+
+                                <input type="checkbox" name="uni" value="IVYTC">
+                                    <label for="IVYTC">Ivy Tech Community College</label>
+                                        <br>
+
+                                <input type="checkbox" name="uni" value="PUI">
+                                    <label for="PUI">Purdue University, Indianapolis</label>
+                                        <br>
+
+                                <input type="checkbox" name="uni" value="UIndy">
+                                    <label for="UIndy">University of Indianapolis</label>
+                                        <br>
+
+                                <input type="checkbox" name="uni" value="MarianU">
+                                    <label for="MarianU">Marian University</label>
+                                        <br>
+
+                                <input type="checkbox" name="uni" value="ButlerU">
+                                    <label for="ButlerU">Butler University</label>
+                                        <br>
+
+                                <input type="checkbox" name="uni" value="MartU">
+                                    <label for="MartU">Martin University</label>
+                                        <br>
+
+                                <button type="submit" >Enter</button>
+
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="checkBox">
+                <form>
+                    <fieldset style="border: none;">
+                        <legend>Choose Your Spots</legend>
+                            <input type="checkbox" name="spot" value="Restauraunts">
+                                <label for="Restauraunts">Restauraunts</label>
+                                    <br>
+                            <input type="checkbox" name="spot" value="Study">
+                                <label for="Study">Study Spots</label>
+                                    <br>
+                    </fieldset>
+                </form>
+            </div>
         </div>
+    </body>
 
-    </div>
-
-    <div class="front_page_text">
-        <form action="index2.html" method="get" target="_blank">
-            <fieldset>
-                <legend>Enter Your Campus</legend>
-
-                    <input type="checkbox" name="uni" value="IUI">
-                        <label for="IUI">Indiana University, Indianapolis</label>
-                            <br>
-
-                    <input type="checkbox" name="uni" value="IVYTC">
-                        <label for="IVYTC">Ivy Tech Community College</label>
-                            <br>
-
-                    <input type="checkbox" name="uni" value="PUI">
-                        <label for="PUI">Purdue University, Indianapolis</label>
-                            <br>
-
-                    <input type="checkbox" name="uni" value="UIndy">
-                        <label for="UIndy">University of Indianapolis</label>
-                            <br>
-
-                    <input type="checkbox" name="uni" value="MarianU">
-                        <label for="MarianU">Marian University</label>
-                            <br>
-
-                    <input type="checkbox" name="uni" value="ButlerU">
-                        <label for="ButlerU">Butler University</label>
-                            <br>
-
-                    <input type="checkbox" name="uni" value="MartU">
-                        <label for="MartU">Martin University</label>
-                            <br>
-
-                    <button type="submit" >Enter</button>
-
-            </fieldset>
-        </form>
-    </div>
-
-
-  </body>
-  <script
-    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin="">
-  </script>
-
-  <script
-    src="script.js">
-  </script>
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin="">
+    </script>
+    <script
+        src="script.js">
+    </script>
 </html>
 
 
