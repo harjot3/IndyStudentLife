@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Goal</title>
+        <title id = "title">Indy Student Food</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -21,6 +21,7 @@
     </head>
 
     <body>
+
         <div class="topnav">
 
             <div class = "titleNavBar">
@@ -37,12 +38,18 @@
 
         </div>
 
-        <div class="front_page_text">
-            <h1>Goal</h1>
-                <p>
-                    The goal of Indy Student Food is for university and college students of Indianapolis, IN to conventinently<br>
-                    locate affordable food options within a 4000 meter (2.5 mile) radius of their respective campus.
-                </p>
+
+        <div id="map"></div>
+
+        <div class="bottomSecondPageText">
+            <p id = "demo" style="margin: 0px; padding: 0px;">
+                Text used to test
+            </p>
         </div>
+
+
     </body>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js "
+integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" ></script>
+<script src="script.js"></script>
 </html>

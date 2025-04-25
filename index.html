@@ -5,8 +5,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
+        <!-- CSS and Favicon -->
         <link rel="stylesheet" href="styles.css" />
-        <link rel="icon" href ="images/food1.png">
+        <link rel="icon" href ="images/favicon.png">
 
         <!-- Leaflet.js -->
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -23,22 +24,24 @@
         <div class="topnav">
 
             <div class = "titleNavBar">
-                <img src="images/food1.png" alt="Food Icon" width="50px" height="35px" style="margin-left: 90px;">
+                <img src="images/favicon.png" alt="Food Icon" class = "navBarFavicon">
                 <a href="index.html">Indy Student Life</a>
+
             </div>
 
             <div class = "secondaryLinkNavBar" >
                 <a href="about.html">About</a>
                 <a href="goal.html">Goals</a>
+                <a href="map.html">Map</a>
             </div>
 
         </div>
 
         <p class="front_page_text">Budget-Friendly Restauraunts & Study Spots Near <br>
-                                    Unviersties and Colleges of Indianapolis, IN</p>
-        <div = style="display: flex;">
+                                    Universities and Colleges of Indianapolis, IN</p>
+        <div= style="display: flex;">
             <div class="checkBox">
-                <form action="index2.html" method="get" target="_blank">
+                <form action="map.html" method="get">
                     <fieldset style="border:none;">
                         <legend style="text-align: center;">Choose Your Campus</legend>
 
@@ -93,10 +96,11 @@
         </div>
     </body>
 
-    <script
+    <!-- Leaflet.js Source Code -->
+    <script>
         src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-        crossorigin="">
+        crossorigin=""
     </script>
     <script
         src="script.js">

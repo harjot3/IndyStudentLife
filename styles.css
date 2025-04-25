@@ -13,12 +13,20 @@
     height: 100%;
     background-color:var(--background_color_blue);
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
   }
 
   #map {
-    height: 92vh;
-    width: 97.5vw;
+    height: 90vh;
+    width: 100vw;
+
+
+  }
+
+  .navBarFavicon {
+    width: 50px;
+    height: 35px;
+    margin-left: 90px;
   }
 
   /* Winky Rough Font */
@@ -48,7 +56,7 @@
   /* Nav bar */
   .topnav {
     background-color:blueviolet;
-    padding: 20px;
+    padding: 10px;
     font-family: "Funnel Display", sans-serif;
     justify-content:space-between ;
     display: flex;
@@ -107,99 +115,48 @@
 
 
 
-/* Media Queries for different Display Sizes - Mobile First */
+/* Extra Small Devices (Phones) */
+@media (min-width: 0px) {
+  .checkBox { font-size: 12px; }
+  .front_page_text { font-size: 12px; }
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 15px; }
+  .secondaryLinkNavBar a {position: relative; top: 8px;}
+  .navBarFavicon { width: 25px; height: 25px; margin-left: 0px; }
+}
 
-  /* Below Mobile S < 320px  */
-  @media (min-width: 0px) {
-    .checkBox {
-      margin-left: 20px;
-      font-size: 15px;
-      line-height: 200%;
-    }
+/* Small Devices (Phones, 321px - 600px) */
+@media (min-width: 320) {
+  .checkBox { font-size: 14px; }
+  .front_page_text { font-size: 26px; }
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 10px; }
+  .navBarFavicon { width: 18px; height: 24px; margin-left: 5px; }
+}
+}
 
-    .front_page_text {
-      font-size: 28px;
-      line-height: 150%;
-    }
+/* Medium Devices (Tablets, 601px - 1024px) */
+@media (min-width: 601px) {
+  .checkBox { font-size: 18px; }
+  .front_page_text { font-size: 30px; }
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 14px; }
+  .navBarFavicon { width: 28px; height: 30px; margin-left: 20px; }
+}
 
-    .titleNavBar a {
-      margin-left: 0px;
-      font-size: 10px;
-    }
+/* Large Devices (Desktops, 1025px - 1440px) */
+@media (min-width: 1024px) {
+  .checkBox { font-size: 22px; }
+  .front_page_text { font-size: 32px; }
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 16px; }
+  .navBarFavicon { width: 25px; height: 25px; margin-left: 0px; }
+}
 
-    .secondaryLinkNavBar a {
-      margin-right: 0px;
-      font-size: 10px;
-    }
-  }
-
-  /* Mobile S - 320px */
-  @media (min-width: 320px) {
-    .checkBox {
-      margin-left: 20px;
-      font-size: 15px;
-      border: none;
-      line-height: 200%;
-    }
-
-    .front_page_text {
-      font-size: 28px;
-      line-height: 150%;
-    }
-
-    .titleNavBar a {
-      margin-left: 0px;
-      font-size: 10px;
-
-    }
-
-    .secondaryLinkNavBar a {
-      margin-right: 0px;
-      font-size: 10px;
-
-    }
-  }
-
-  /* Mobile L - 425px */
-  @media (min-width: 425px) {
-
-  }
-
-  /* Tablet - 768px */
-  @media (min-width: 768px) {
-
-  }
-
-  /* Laptop - 1024px */
-  @media (min-width: 1024px) {
-    .titleNavBar a {
-      margin-left: 106px;
-    }
-  }
-
-  /* Laptop L - 1440px */
-  @media (min-width: 1440px) {
-    .checkBox {
-      margin-left: 60px;
-      font-size: 25px;
-    }
-
-    .front_page_text {
-      font-size: 35px;
-      line-height: 150%;
-    }
-
-    .titleNavBar a {
-      margin-left: 0px;
-      font-size: 35px;
-    }
-
-    .secondaryLinkNavBar a {
-      margin-right: 29px;
-      font-size: 35px;
-    }
-  }
-
+/* Extra Large Devices (Large Screens) */
+@media (min-width: 1440px) {
+  .checkBox { font-size: 25px; margin-left: 60px; }
+  .front_page_text { font-size: 35px; }
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 30px; }
+  .secondaryLinkNavBar a {position: relative; top: 20px; margin-right: 30px;}
+  .navBarFavicon { width: 50px; height: 50px; margin-left: 40px; }
+}
 
 
 

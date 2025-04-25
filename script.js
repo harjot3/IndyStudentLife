@@ -2,28 +2,65 @@ console.log('Hello!');
 
 // Get URL parameters
 const params = new URLSearchParams(window.location.search);
-
-const apples = [];
-
-for (let i = 0; i < 7; i++) {
-    const selectedUni = params.get("uni");
-    apples.push(selectedUni);
-}
+const selectedUni = params.getAll("uni");
 
 
 // Leaflet Map
 var map;
 
-//  Hash Map of Universities-  latitudem, longitude, preferred zoom on map, name, and .json file
+//  Hash Map of Universities-  latitudem, longitude, preferred zoom on OpenStreetMap, fullname, and .json file
 const universities = new Map([
-    ["IUI", [39.775991, -86.176811, 14, "Indiana University, Indianapolis", 'Restaurants-Data/IndianaUniversityIndianapolis.json']],
-    ["IVYTC", [39.804199, -86.158626, 15, "Ivy Tech Community College", 'Restaurants-Data/IvyTechCommunityCollege.json']],
-    ["PUI", [39.773967, -86.172804, 14, "Purdue University, Indianapolis", 'Restaurants-Data/PurdueUniversityIndianapolis.json']],
-    ["UIndy", [39.709967, -86.134518,15, "University of Indianapolis", 'Restaurants-Data/UniversityOfIndianapolis.json']],
-    ["MarianU", [39.812334,  -86.204259, 15, "Marian University", 'Restaurants-Data/MarianUniversity.json']],
-    ["ButlerU", [39.841010, -86.174033, 15, "Butler University", 'Restaurants-Data/ButlerUniversity.json' ]],
-    ["MartU", [39.798712, -86.104, 17, "Martin University", 'Restaurants-Data/MartinUniversity.json']],
-]);
+    ["IUI", {
+      latitude: 39.775991,
+      longitude: -86.176811,
+      zoom: 14,
+      fullName: "Indiana University, Indianapolis",
+      dataFile: "Restaurants-Data/IndianaUniversityIndianapolis.json"
+    }],
+    ["IVYTC", {
+      latitude: 39.804199,
+      longitude: -86.158626,
+      zoom: 15,
+      fullName: "Ivy Tech Community College",
+      dataFile: "Restaurants-Data/IvyTechCommunityCollege.json"
+    }],
+    ["PUI", {
+      latitude: 39.773967,
+      longitude: -86.172804,
+      zoom: 14,
+      fullName: "Purdue University, Indianapolis",
+      dataFile: "Restaurants-Data/PurdueUniversityIndianapolis.json"
+    }],
+    ["UIndy", {
+      latitude: 39.709967,
+      longitude: -86.134518,
+      zoom: 15,
+      fullName: "University of Indianapolis",
+      dataFile: "Restaurants-Data/UniversityOfIndianapolis.json"
+    }],
+    ["MarianU", {
+      latitude: 39.812334,
+      longitude: -86.204259,
+      zoom: 15,
+      fullName: "Marian University",
+      dataFile: "Restaurants-Data/MarianUniversity.json"
+    }],
+    ["ButlerU", {
+      latitude: 39.841010,
+      longitude: -86.174033,
+      zoom: 15,
+      fullName: "Butler University",
+      dataFile: "Restaurants-Data/ButlerUniversity.json"
+    }],
+    ["MartU", {
+      latitude: 39.798712,
+      longitude: -86.104,
+      zoom: 17,
+      fullName: "Martin University",
+      dataFile: "Restaurants-Data/MartinUniversity.json"
+    }]
+  ]);
+
 
 // Creating Icon Class
 var LeafIcon = L.Icon.extend({
@@ -45,35 +82,63 @@ var greenIconObject = new LeafIcon({iconUrl: 'images/leaf-green.png'});
 // Creating Map
 function createMap(lat = 39.7684, long = -86.1581, zoom_input = 11) {
     console.log(arguments.length);
-    // Default coordinates are for Indianapolis, Indiana (39.7684° N, 86.1581° W)
+    // Default coordinates are for Indianapolis, Indiana (39.7684° N, -86.1581° W)
 
-    if (arguments.length < 3) {
-        lat = 39.821302;
-        long = -86.157146;
-        zoom = 20;
-    }
+        var singleUniversity;
+        console.log(selectedUni.length + " apples");
+        var size = selectedUni.length;
 
-    // Define the map's coordinates as per user input
-    var mapHash = {
-        center: [lat, long],
-        zoom: zoom_input
-    };
+        if (size === 1) {
+            singleUniversity = universities.get(selectedUni[0]);
+            lat = singleUniversity.latitude;
+            long = singleUniversity.longitude,
+            zoom_input = singleUniversity.zoom
+        }
 
-    // Create the Leaflet map and set the tile layer
-    map = new L.map('map', mapHash);
-    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-    {maxZoom: 40, attribution: '© OpenStreetMap' }).addTo(map);
+        // Define the map's coordinates as per user inpu
+        var mapHash = {
+            center: [lat, long],
+            zoom: zoom_input
+        };
 
 
-    // if they selected a university, then we'll set a circle to a 2.5mile radius of respective institution
-    if (arguments.length > 2) {
+        // Create the Leaflet map and set the tile layer
+        map = new L.map('map', mapHash);
+        L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        {maxZoom: 40, attribution: '© OpenStreetMap' }).addTo(map);
+
+            addIcons(selectedUni);
+            if (selectedUni.length === 1) {
+                addCircle(selectedUni);
+            }
+            addMarkers(selectedUni);
+
+    // Return the created map if needed for further use
+    return map;
+}
+
+createMap();
+
+// function to add icons
+function addIcons(array_universities) {
+    for (var i of array_universities) {
+
+        let lat = universities.get(i).latitude;
+        let long = universities.get(i).longitude;
+
         // creating red icon
-        let redIcon = L.marker([lat, long] , { icon : redIconObject} );
-
+        let greenIcon = L.marker([lat, long] , { icon : greenIconObject} );
         // adding icon to map
-        redIcon.addTo(map);
+        greenIcon.addTo(map);
+    }
+}
 
-        // adding circle to map
+function addCircle(array_universities) {
+    for (var i of array_universities) {
+
+        let lat = universities.get(i).latitude;
+        let long = universities.get(i).longitude;
+
         var circle = L.circle([lat, long], {
             color: '#2471a3',
             fillColor: '#2471a3',
@@ -83,59 +148,14 @@ function createMap(lat = 39.7684, long = -86.1581, zoom_input = 11) {
 
         circle.addTo(map);
     }
-
-    // Return the created map if needed for further use
-    return map;
 }
 
+function addMarkers(array_universities) {
+    for (var i of array_universities) {
+        let uniFile = universities.get(i);
 
-// function to add icons to map if they select blank
-function addIcons() {
-    for (let [key,value] of universities) {
-        let lat = value[0];
-        let long = value[1];
-
-        // creating red icon
-        let greenIcon = L.marker([lat, long] , { icon : greenIconObject} );
-        // adding icon to map
-        greenIcon.addTo(map);
-
-    }
-}
-
-
-// Main function of program- creates map and sets markers
-function universityEntered(uni_name) {
-    let lat;
-    let long;
-    let zoom;
-
-    var university;
-    var uni_file;
-
-    if (uni_name) {
-        lat = (universities.get(uni_name)[0]);
-        long = (universities.get(uni_name)[1]);
-        zoom = (universities.get(uni_name)[2]);
-        university = (universities.get(uni_name)[3]);
-        uni_file = (universities.get(uni_name)[4]);
-    } else {
-        university = "No Option";
-        createMap();
-        addIcons();
-    }
-
-    document.getElementById("title").innerHTML = university;
-    document.getElementById("demo").innerHTML = `<br>${university}, great choice! Team Green hopes you have a wonderful day 😁</br>`;
-
-    fetchUniData(uni_file);
-    createMap(lat, long, zoom);
-}
-
-// fetches data from university/college's data file for restaurants/reads
-// turns every restaurant entered into marker
-function fetchUniData(url) {
-    fetch(url)
+        let url = uniFile.dataFile;
+        fetch(url)
         .then(function(response) {
             return response.json();
         })
@@ -159,15 +179,17 @@ function fetchUniData(url) {
                 restauraunt_marker.addTo(map).bindPopup(popupContent);
             }
         })
-    .catch(function(error) {
-        console.log('Error loading JSON:', error);
-    });
+        .catch(function(error) {
+            console.log('Error loading JSON:', error);
+        });
+    }
 }
 
-for (let x of apples) {
-    universityEntered(x);
-    console.log(x);
+for (let i of selectedUni) {
+    let uniData = universities.get(i);
+    console.log(uniData.fullName);
 }
+console.log("bye world");
 
 /*
 Unused Icons:
