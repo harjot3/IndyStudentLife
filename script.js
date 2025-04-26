@@ -191,6 +191,9 @@ for (let i of selectedUni) {
 }
 console.log("bye world");
 
+document.getElementById("demo").innerText = "Team Green hopes you have a great day!";
+
+
 /*
 Unused Icons:
 
