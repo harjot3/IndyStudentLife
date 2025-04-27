@@ -1,66 +1,42 @@
 console.log('Hello!');
 
 // Get URL parameters
-const params = new URLSearchParams(window.location.search);
-const selectedUni = params.getAll("uni");
+const search_bar = new URLSearchParams(window.location.search);
+var selectedUni = search_bar.get("uni"); //
+const selectedPlace = search_bar.getAll("spot"); // // Returns Array of Spots Selected ['Food', 'Study']
 
+for (let x of selectedPlace) {
+    console.log(x);
+}
 
+var circleColor = '#1E90FF';
 // Leaflet Map
 var map;
 
 //  Hash Map of Universities-  latitudem, longitude, preferred zoom on OpenStreetMap, fullname, and .json file
 const universities = new Map([
-    ["IUI", {
-      latitude: 39.775991,
-      longitude: -86.176811,
-      zoom: 14,
-      fullName: "Indiana University, Indianapolis",
-      dataFile: "Restaurants-Data/IndianaUniversityIndianapolis.json"
-    }],
-    ["IVYTC", {
-      latitude: 39.804199,
-      longitude: -86.158626,
-      zoom: 15,
-      fullName: "Ivy Tech Community College",
-      dataFile: "Restaurants-Data/IvyTechCommunityCollege.json"
-    }],
-    ["PUI", {
-      latitude: 39.773967,
-      longitude: -86.172804,
-      zoom: 14,
-      fullName: "Purdue University, Indianapolis",
-      dataFile: "Restaurants-Data/PurdueUniversityIndianapolis.json"
-    }],
-    ["UIndy", {
-      latitude: 39.709967,
-      longitude: -86.134518,
-      zoom: 15,
-      fullName: "University of Indianapolis",
-      dataFile: "Restaurants-Data/UniversityOfIndianapolis.json"
-    }],
-    ["MarianU", {
-      latitude: 39.812334,
-      longitude: -86.204259,
-      zoom: 15,
-      fullName: "Marian University",
-      dataFile: "Restaurants-Data/MarianUniversity.json"
-    }],
-    ["ButlerU", {
-      latitude: 39.841010,
-      longitude: -86.174033,
-      zoom: 15,
-      fullName: "Butler University",
-      dataFile: "Restaurants-Data/ButlerUniversity.json"
-    }],
-    ["MartU", {
-      latitude: 39.798712,
-      longitude: -86.104,
-      zoom: 17,
-      fullName: "Martin University",
-      dataFile: "Restaurants-Data/MartinUniversity.json"
-    }]
+    ["IUI", { latitude: 39.7756, longitude: -86.176811, zoom: 14, fullName: "Indiana University, Indianapolis",
+        foodDataFile: "Restaurants-Data/IndianaUniversityIndianapolis.json",
+        studyDataFile: "StudySpots-Data/IndianaUniversityIndianapolis.json" }],
+    ["IVYTC", { latitude: 39.804199, longitude: -86.158626, zoom: 15, fullName: "Ivy Tech Community College",
+        foodDataFile: "Restaurants-Data/IvyTechCommunityCollege.json",
+        studyDataFile: "StudySpots-Data/IvyTechCommunityCollege.json" }],
+    ["PUI", { latitude: 39.773967, longitude: -86.172804, zoom: 14, fullName: "Purdue University, Indianapolis",
+        foodDataFile: "Restaurants-Data/PurdueUniversityIndianapolis.json",
+        studyDataFile: "StudySpots-Data/PurdueUniversityIndianapolis.json" }],
+    ["UIndy", { latitude: 39.7095, longitude: -86.134518, zoom: 15, fullName: "University of Indianapolis",
+        foodDataFile: "Restaurants-Data/UniversityOfIndianapolis.json",
+        studyDataFile: "StudySpots-Data/UniversityOfIndianapolis.json" }],
+    ["MarianU", { latitude: 39.8120, longitude: -86.204259, zoom: 15, fullName: "Marian University",
+        foodDataFile: "Restaurants-Data/MarianUniversity.json",
+        studyDataFile: "StudySpots-Data/MarianUniversity.json" }],
+    ["ButlerU", { latitude: 39.8408, longitude: -86.174033, zoom: 15, fullName: "Butler University",
+        foodDataFile: "Restaurants-Data/ButlerUniversity.json",
+        studyDataFile: "StudySpots-Data/ButlerUniversity.json" }],
+    ["MartU", { latitude: 39.7982, longitude: -86.104, zoom: 17, fullName: "Martin University",
+        foodDataFile: "Restaurants-Data/MartinUniversity.json",
+        studyDataFile: "StudySpots-Data/MartinUniversity.json" }]
   ]);
-
 
 // Creating Icon Class
 var LeafIcon = L.Icon.extend({
@@ -79,26 +55,34 @@ var redIconObject = new LeafIcon({iconUrl: 'images/leaf-red.png'});
 // green icon
 var greenIconObject = new LeafIcon({iconUrl: 'images/leaf-green.png'});
 
+// orange icon
+var orangeIconObject = new LeafIcon({iconUrl: 'images/leaf-orange.png'});
+
+// cutlery Marker
+var cutleryMarker = new LeafIcon({iconUrl : 'images/cutlery.png', shadowUrl : null, iconSize : [40, 40]});
+
+// study marker
+var studyMarker = new LeafIcon({ iconUrl : 'images/book.png', shadowUrl : null, iconSize : [30, 30]});
+
+// school Markjer
+var schoolMarker = new LeafIcon({ iconUrl : 'images/mortarboard.png', shadowUrl : null, iconSize : [60, 95]});
+
+
 // Creating Map
-function createMap(lat = 39.7684, long = -86.1581, zoom_input = 11) {
+function createMap(lat = 39.7684, long = -86.1581, zoom_function = 11, university, place) {
     console.log(arguments.length);
     // Default coordinates are for Indianapolis, Indiana (39.7684° N, -86.1581° W)
 
-        var singleUniversity;
-        console.log(selectedUni.length + " apples");
-        var size = selectedUni.length;
 
-        if (size === 1) {
-            singleUniversity = universities.get(selectedUni[0]);
-            lat = singleUniversity.latitude;
-            long = singleUniversity.longitude,
-            zoom_input = singleUniversity.zoom
-        }
+            lat = universities.get(university).latitude,
+            long = universities.get(university).longitude,
+            zoom_function = universities.get(university).zoom
+
 
         // Define the map's coordinates as per user inpu
         var mapHash = {
             center: [lat, long],
-            zoom: zoom_input
+            zoom: zoom_function
         };
 
 
@@ -107,98 +91,88 @@ function createMap(lat = 39.7684, long = -86.1581, zoom_input = 11) {
         L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
         {maxZoom: 40, attribution: '© OpenStreetMap' }).addTo(map);
 
-            addIcons(selectedUni);
-            if (selectedUni.length === 1) {
-                addCircle(selectedUni);
-            }
-            addMarkers(selectedUni);
+
+        addIcons(university);
+        addCircle(university);
+        addMarkers(university, place);
 
     // Return the created map if needed for further use
     return map;
 }
 
-createMap();
-
 // function to add icons
-function addIcons(array_universities) {
-    for (var i of array_universities) {
+function addIcons(university) {
+    let icon;
+    let lat = universities.get(university).latitude;
+    let long = universities.get(university).longitude;
 
-        let lat = universities.get(i).latitude;
-        let long = universities.get(i).longitude;
-
-        // creating red icon
-        let greenIcon = L.marker([lat, long] , { icon : greenIconObject} );
-        // adding icon to map
-        greenIcon.addTo(map);
-    }
+    // orange icon
+    icon = L.marker([lat, long] , { icon : schoolMarker});
+    icon.addTo(map);
 }
 
-function addCircle(array_universities) {
-    for (var i of array_universities) {
+function addCircle(university) {
+    let lat = universities.get(university).latitude;
+    let long = universities.get(university).longitude;
 
-        let lat = universities.get(i).latitude;
-        let long = universities.get(i).longitude;
+    var circle = L.circle([lat, long], {
+        color: circleColor,
+        fillColor: circleColor,
+        fillOpacity: 0.5,
+        radius: 4000
+    });
 
-        var circle = L.circle([lat, long], {
-            color: '#2471a3',
-            fillColor: '#2471a3',
-            fillOpacity: 0.5,
-            radius: 4000
-        });
-
-        circle.addTo(map);
-    }
+    circle.addTo(map);
 }
 
-function addMarkers(array_universities) {
-    for (var i of array_universities) {
-        let uniFile = universities.get(i);
+function addMarkers(university, place) {
 
-        let url = uniFile.dataFile;
-        fetch(url)
-        .then(function(response) {
-            return response.json();
-        })
-        .then(function(data) {
-            // loops through file containing data
-            for (let i = 0; i < data.length; i ++ ) {
-
-                let item = data[i];
-
-                var restauraunt_marker = L.marker([item.latitude, item.longitude], {alt: item.name});
-
-                // creating text for each marker
-                const popupContent =
-                    `<b>Name:</b> ${item.name}<br>` +
-                    `<b>Address:</b> ${item.address}<br>` +
-                    `<b>Price:</b> ${item.price}<br>` +
-                    `<b>Miles From Campus:</b> ${item.milesFromCampus}<br>` +
-                    `<b>Date Info Entered:</b> ${item.dateInfoEntered}<br>`
-                    // `<a href="" target="_blank"></a>`;
-
-                restauraunt_marker.addTo(map).bindPopup(popupContent);
+        for (let i of place ) {
+            let url;
+            let food = true;
+            if (i == "Study") {
+                url = universities.get(university).studyDataFile;
+                food = !food;
             }
-        })
-        .catch(function(error) {
-            console.log('Error loading JSON:', error);
-        });
+            else if (i == "Food" ){
+                url = universities.get(university).foodDataFile;
+                food = true;
+            }
+            fetch(url)
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(data) {
+                // loops through file containing data
+                for (let i = 0; i < data.length; i ++ ) {
+                    var marker;
+
+                    let item = data[i];
+
+                    if (!food) {
+                        marker = L.marker([item.latitude, item.longitude], { icon: studyMarker });
+                    } else {
+                        marker = L.marker([item.latitude, item.longitude], { icon: cutleryMarker });
+                    }
+
+                    // creating text for each marker
+                    const popupContent =
+                        `<b>Name:</b> ${item.name}<br>` +
+                        `<b>Address:</b> ${item.address}<br>` +
+                        `<b>Price:</b> ${item.price}<br>` +
+                        `<b>Miles From Campus:</b> ${item.milesFromCampus}<br>` +
+                        `<b>Date Info Entered:</b> ${item.dateInfoEntered}<br>`
+                        // `<a href="" target="_blank"></a>`;
+
+                    marker.addTo(map).bindPopup(popupContent);
+                }
+            })
+            .catch(function(error) {
+                console.log('Error loading JSON:', error);
+            });
     }
 }
 
-for (let i of selectedUni) {
-    let uniData = universities.get(i);
-    console.log(uniData.fullName);
-}
+createMap(undefined, undefined, undefined, selectedUni, selectedPlace);
 console.log("bye world");
-
 document.getElementById("demo").innerText = "Team Green hopes you have a great day!";
-
-
-/*
-Unused Icons:
-
-    // orange
-    var orangeIconObject = new LeafIcon({iconUrl: 'images/leaf-orange.png'});
-    let orangeIcon = L.marker([lat, long] , { icon : orangeIconObject} );
-
-*/

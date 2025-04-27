@@ -17,6 +17,18 @@
     width: 100vw;
   }
 
+  a:visited {
+    color: purple;
+  }
+
+  a:active {
+    color: blue;
+  }
+
+  a:link {
+    color: purple;
+  }
+
     /* Winky Rough Font */
     .winky-rough{
       font-family: "Winky Rough", sans-serif;
@@ -138,7 +150,7 @@
             }
 
             .checkbox-group {
-              margin: 0px;
+              margin: 10px;
               min-width: 250px;
               max-width: 450px;
             }
@@ -147,7 +159,6 @@
               margin-bottom: 15px;
 
             }
-
 
             fieldset {
               border: none;
