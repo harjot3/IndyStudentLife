@@ -8,13 +8,13 @@ View Live Demo (https://harjot3.github.io/IndyStudentLife/)
 
 Campus Selection: Choose from seven Indianapolis universities and colleges:
 
-Indiana University, Indianapolis
-Ivy Tech Community College
-Purdue University, Indianapolis
-University of Indianapolis
-Marian University
-Butler University
-Martin University
+Indiana University, Indianapolis, 
+Ivy Tech Community College, 
+Purdue University, Indianapolis, 
+University of Indianapolis, 
+Marian University, 
+Butler University, 
+Martin University 
 
 Location Types: Filter locations by:
 
