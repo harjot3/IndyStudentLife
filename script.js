@@ -65,19 +65,23 @@ var cutleryMarker = new LeafIcon({iconUrl : 'images/cutlery.png', shadowUrl : nu
 var studyMarker = new LeafIcon({ iconUrl : 'images/book.png', shadowUrl : null, iconSize : [30, 30]});
 
 // school Markjer
-var schoolMarker = new LeafIcon({ iconUrl : 'images/mortarboard.png', shadowUrl : null, iconSize : [60, 95]});
+var schoolMarker = new LeafIcon({ iconUrl : 'images/school.png', shadowUrl : null, iconSize : [60, 95]});
 
 
 // Creating Map
 function createMap(lat = 39.7684, long = -86.1581, zoom_function = 11, university, place) {
     console.log(arguments.length);
+    console.log(university === null);
+    console.log(place.length === 0);
     // Default coordinates are for Indianapolis, Indiana (39.7684° N, -86.1581° W)
 
 
+        // If there was a university selected
+        if (! (university === null) ) {
             lat = universities.get(university).latitude,
             long = universities.get(university).longitude,
             zoom_function = universities.get(university).zoom
-
+        }
 
         // Define the map's coordinates as per user inpu
         var mapHash = {

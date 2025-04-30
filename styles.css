@@ -181,85 +181,77 @@
 
 /* Extra Small Devices (0px - 319px) */
 @media (min-width: 0px) {
-  .checkBoxContainer { font-size: 10px; }
+  .checkbox-group { font-size: 10px; }
   .front_page_text { font-size: 12px; }
   .titleNavBar a, .secondaryLinkNavBar a { font-size: 15px; }
-  .secondaryLinkNavBar {word-spacing: 35px; margin-right: 70px;}
-  .navBarFavicon { width: 25px; height: 25px; margin-left: 0px; }
+  .secondaryLinkNavBar {word-spacing: 5px; margin-right: px;}
+  .navBarFavicon { width: 25px; height: 15px; margin-left: 0px; }
 }
 
 /* Mobile S (320px - 374px) */
 @media (min-width: 320px) {
-  .checkBoxContainer { font-size: 11px; }
+  .checkbox-group { font-size: 15px; }
   .front_page_text { font-size: 12px; }
-  .titleNavBar a, .secondaryLinkNavBar a { font-size: 10px; }
-  .secondaryLinkNavBar {word-spacing: 35px; margin-right: 70px;}
-  .navBarFavicon { width: 18px; height: 24px; margin-left: 5px; }
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 15px; }
+  .secondaryLinkNavBar {word-spacing: 5px; margin-right: 10px;}
+  .navBarFavicon { width: 18px; height: 15px; margin-left: 5px; }
 
 }
 
 /* Mobile M (375px - 424px) */
 @media (min-width: 375px) {
-  .checkBoxContainer { font-size: 14px; }
+  .checkbox-group { font-size: 20px; }
   .front_page_text { font-size: 26px; }
-  .titleNavBar a, .secondaryLinkNavBar a { font-size: 10px; }
-  .secondaryLinkNavBar {word-spacing: 35px; margin-right: 70px;}
-  .navBarFavicon { width: 18px; height: 24px; margin-left: 5px; }
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 15px; }
+  .secondaryLinkNavBar {word-spacing: 15px; margin-right: 15px;}
+  .navBarFavicon { width: 18px; height: 15px; margin-left: 5px; }
 }
 
 /* Mobile L (425px - 764px) */
 @media (min-width: 425px) {
-  .checkBoxContainer { font-size: 14px; }
+  .checkbox-group { font-size: 14px; }
   .front_page_text { font-size: 26px; }
-  .titleNavBar a, .secondaryLinkNavBar a { font-size: 10px; }
-  .secondaryLinkNavBar {word-spacing: 35px; margin-right: 70px;}
-  .navBarFavicon { width: 18px; height: 24px; margin-left: 5px; }
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 17px; }
+  .secondaryLinkNavBar {word-spacing: 12px; margin-right: 20px;}
+  .navBarFavicon { width: 18px; height: 17px; margin-left: 5px; }
 }
 
 /* Tablets (768px - 1023px) */
 @media (min-width: 768px) {
-  .checkBoxContainer { font-size: 18px; }
+  .checkbox-group { font-size: 21px; }
   .front_page_text { font-size: 30px; }
-  .titleNavBar a, .secondaryLinkNavBar a { font-size: 14px; }
-  .secondaryLinkNavBar {word-spacing: 35px; margin-right: 70px;}
-  .navBarFavicon { width: 28px; height: 30px; margin-left: 20px; }
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 26px; }
+  .secondaryLinkNavBar {word-spacing: 15px; margin-right: 25px;}
+  .navBarFavicon { width: 28px; height: 26px; margin-left: 20px; }
 }
 
 
 /* Laptops (1024px - 1239px) */
 @media (min-width: 1024px) {
-  .checkBoxContainer { font-size: 18px; }
+  .checkbox-group { font-size: 18px; }
   .front_page_text { font-size: 30px; }
-  .titleNavBar a, .secondaryLinkNavBar a { font-size: 14px; }
-  .secondaryLinkNavBar {word-spacing: 35px; margin-right: 70px;}
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 30px; }
+  .secondaryLinkNavBar {word-spacing: 35px; margin-right: 30px;}
   .navBarFavicon { width: 28px; height: 30px; margin-left: 20px; }
 }
 
-/* ?? (1240px - 1443px) */
-@media (min-width: 1240px) {
-  .checkBoxContainer { font-size: 18px; }
-  .front_page_text { font-size: 30px; }
-  .titleNavBar a, .secondaryLinkNavBar a { font-size: 14px; }
-  .secondaryLinkNavBar {word-spacing: 35px; margin-right: 70px;}
-  .navBarFavicon { width: 28px; height: 30px; margin-left: 20px; }
-}
 
 /* Laptop L (1440px - )*/
 @media (min-width: 1440px) {
-  .checkBoxContainer { font-size: 22px; }
-  .front_page_text { font-size: 32px; }
-  .titleNavBar a, .secondaryLinkNavBar a { font-size: 25px; }
-  .secondaryLinkNavBar {word-spacing: 35px; margin-right: 70px;}
-  .navBarFavicon { width: 40px; height: 25px; margin-left: 30px; }
+  .checkbox-group { font-size: 26px; }
+  .front_page_text { font-size: 30px; }
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 35px; }
+  .secondaryLinkNavBar {word-spacing: 35px; margin-right: 40px;}
+  .navBarFavicon { width: 40px; height: 35px; margin-left: 30px; }
 }
 
 /* Desktop Computer ( - )*/
 @media (min-width: 1800px) {
-  .checkbox-group { font-size: 18px; }
+  .checkbox-group { font-size: 30px; }
   .front_page_text { font-size: 32px; }
-  .titleNavBar a, .secondaryLinkNavBar a { font-size: 35px; }
-  .secondaryLinkNavBar {word-spacing: 30px; margin-right: 70px;}
-  .navBarFavicon { width: 40px; height: 35px; margin-left: 70px; }
+  .titleNavBar a, .secondaryLinkNavBar a { font-size: 40px; }
+  .secondaryLinkNavBar {word-spacing: 30px; margin-right: 60px;}
+  .navBarFavicon { width: 40px; height: 40px; margin-left: 70px; }
 }
 
 
