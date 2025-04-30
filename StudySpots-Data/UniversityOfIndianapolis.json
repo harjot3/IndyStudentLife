@@ -1,0 +1,62 @@
+[
+    {
+        "name": "University of Indianapolis Krannert Memorial Library",
+        "address": "1400 E Hanna Ave, Indianapolis, IN 46227",
+        "latitude": 39.710456580545625,
+        "longitude": -86.13658817718672,
+        "milesFromCampus": 0.1,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+        {
+        "name": "Indianapolis Public Library - Garfield Park Branch",
+        "address": "2502 Shelby St, Indianapolis, IN 46203",
+        "latitude": 39.733323675384355,
+        "longitude": -86.13965607824895,
+        "milesFromCampus": 1.5,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+    {
+        "name": "Indianapolis Public Library - Beech Grove Branch",
+        "address": "1102 Main St, Beech Grove, IN 46107",
+        "latitude": 39.723095948820166,
+        "longitude": -86.0948743449907,
+        "milesFromCampus": 2.5,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+    {
+        "name": "7 Brew Coffee",
+        "address": "3710 S East St, Indianapolis, IN 46227",
+        "latitude": 39.71438217896549,
+        "longitude": -86.1495447627361,
+        "milesFromCampus": 0.8,
+        "studyEnvironment": "Moderate noise",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+    {
+        "name": "Normal Coffee",
+        "address": "1125 Cruft St, Indianapolis, IN 46203",
+        "latitude": 39.73101398940281,
+        "longitude": -86.13893100448863,
+        "milesFromCampus": 1.4,
+        "studyEnvironment": "Moderate noise",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+    {
+        "name": "Starbucks",
+        "address": "5943 S East St, Indianapolis, IN 46227",
+        "latitude": 39.680268488577035,
+        "longitude": -86.14864371335854,
+        "milesFromCampus": 2.3,
+        "studyEnvironment": "Moderate noise",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    }
+]

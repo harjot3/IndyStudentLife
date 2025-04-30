@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Indianapolis Public Library - Spades Park Branch",
+        "address": "1801 Nowland Ave, Indianapolis, IN 46201",
+        "latitude": 39.786156451852634,
+        "longitude": -86.12889851204133,
+        "milesFromCampus": 2.4,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+        {
+        "name": "Indianapolis Public Library - Martindale-Brightwood Branch",
+        "address": "2434 N Sherman Dr, Indianapolis, IN 46218",
+        "latitude": 39.80426555144021,
+        "longitude": -86.1030352711477,
+        "milesFromCampus": 0.4,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+    {
+        "name": "Indianapolis Public Library - East Washington Branch",
+        "address": "2822 E Washington St, Indianapolis, IN 46201",
+        "latitude": 39.77068734172606,
+        "longitude": -86.1157920610419,
+        "milesFromCampus": 2.7,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+    {
+        "name": "Indianapolis Public Library - Irvington Branch",
+        "address": "10 S Audubon Rd, Indianapolis, IN 46219",
+        "latitude": 39.77169997835721,
+        "longitude": -86.07070545894095,
+        "milesFromCampus": 2.9,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    }
+]
