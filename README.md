@@ -1,6 +1,8 @@
-Indy Student Life is a web application designed to help university and college students in Indianapolis, Indiana 
+<div style="font-size:20px;">
+  
+Indy Student Life is a web application designed to help university and college students in Indianapolis, Indiana, 
 easily locate budget-friendly restaurants and study spots near their campuses. The application features an interactive map 
-that displays locations within a 4000 meter (2.5 mile) radius of selected campuses.
+that displays locations within a 4000-meter (2.5 mile) radius of selected campuses.
 
 View Live Demo (https://harjot3.github.io/IndyStudentLife/)
 
@@ -35,4 +37,4 @@ Git/GitHub
 Discord (team communication)
 Trello (project management)
 Google Docs (documentation)
-
+</div>
