@@ -8,7 +8,11 @@ const selectedPlace = search_bar.getAll("spot"); // // Returns Array of Spots Se
 for (let x of selectedPlace) {
     console.log(x);
 }
-
+//the check for toggle functionality
+document.querySelector('.toggle').addEventListener('click', function(e) {
+  e.preventDefault();
+  this.classList.toggle('active');
+});
 var circleColor = '#1E90FF';
 // Leaflet Map
 var map;
