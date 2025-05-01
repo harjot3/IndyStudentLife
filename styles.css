@@ -1,297 +1,179 @@
 :root {
   --background_color_blue: cornflowerblue;
-  --nav_color: blueviolet;
-  --button_hover: #8a2be2;
-  --text_light: white;
 }
 
-/* =============== */
-/* BASE STYLES */
-/* =============== */
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  background-color: var(--background_color_blue);
-  overflow-y: auto;
-  overflow-x: auto;
-  font-family: "Rubik", sans-serif;
-}
+/* General CSS */
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: var(--background_color_blue);
+      overflow-y: auto;
+      overflow-x: auto;
+    }
 
-#map {
-  height: 87.5vh;
-  width: 100vw;
-}
-
-a {
-  text-decoration: none;
-}
-a:link { color: purple; }
-a:visited { color: purple; }
-a:active { color: blue; }
-
-/* =============== */
-/* FONT CLASSES */
-/* =============== */
-.winky-rough {
-  font-family: "Winky Rough", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.funnel-display {
-  font-family: "Funnel Display", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.rubik {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-}
-
-/* =============== */
-/* NAVIGATION */
-/* =============== */
-.topnav {
-  background-color: var(--nav_color);
-  padding: 10px;
-  font-family: "Funnel Display", sans-serif;
-  display: flex;
-  justify-content: space-between;
-  gap: 15px;
-}
-
-.topnav a {
-  font-size: 16px;
-  color: var(--text_light);
-}
-.topnav a:hover {
-  color: black;
-  background-color: #ddd;
-}
-.topnav a:active {
-  color: black;
-  background-color: gray;
-}
-
-.navBarFavicon {
-  width: 50px;
-  height: 16px;
-}
-
-/* =============== */
-/* CONTENT AREAS */
-/* =============== */
-.front_page_text {
-  font-family: "Winky Rough", sans-serif;
-  text-align: center;
-  line-height: 175%;
-  margin: 5px auto 20px;
-  max-width: 800px;
-  padding: 0 20px;
-}
-
-.bottomSecondPageText {
-  font-family: "Funnel Display", sans-serif;
-  text-align: center;
-  font-weight: bold;
-  font-size: 17px;
-  margin: 0;
-  padding: 0;
-}
-
-/* =============== */
-/* FORM COMPONENTS */
-/* =============== */
-.form-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-family: "Rubik", sans-serif;
-  line-height: 1.5;
-  margin: 20px auto;
-  max-width: 900px;
-}
-
-.checkbox-group {
-  margin: 15px;
-  min-width: 250px;
-  max-width: 400px;
-}
-
-.checkbox-item {
-  margin-bottom: 15px;
-}
-
-fieldset {
-  border: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* =============== */
-/* CARD-DROP SYSTEM */
-/* =============== */
-.cards-container {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin: 30px auto;
-  max-width: 900px;
-}
-
-.card-drop {
-  width: 280px;
-  position: relative;
-}
-
-.card-drop > .toggle {
-  display: block;
-  background: var(--nav_color);
-  color: var(--text_light);
-  padding: 15px 20px;
-  border-radius: 4px;
-  font-family: "Funnel Display", sans-serif;
-  font-size: 16px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.card-drop > .toggle::after {
-  content: "▼";
-  float: right;
-  transition: transform 0.3s;
-  font-size: 14px;
-}
-
-.card-drop > ul {
-  display: none;
-  position: absolute;
-  width: 100%;
-  background: var(--background_color_blue);
-  list-style: none;
-  padding: 10px 0;
-  margin: 5px 0 0;
-  z-index: 100;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.card-drop:hover > ul {
-  display: block;
-  animation: fadeIn 0.3s ease;
-}
-
-.card-drop:hover > .toggle {
-  background: var(--button_hover);
-  border-radius: 4px 4px 0 0;
-}
-
-.card-drop:hover > .toggle::after {
-  transform: rotate(180deg);
-}
-
-.card-drop li {
-  padding: 8px 20px;
-  transition: background 0.2s;
-}
-
-.card-drop li:hover {
-  background: rgba(255,255,255,0.1);
-}
-
-.card-drop label {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  cursor: pointer;
-  width: 100%;
-  color: var(--text_light);
-  font-family: "Rubik", sans-serif;
-}
-
-.card-drop input[type="radio"],
-.card-drop input[type="checkbox"] {
-  margin: 0;
-  accent-color: var(--nav_color);
-}
-
-/* =============== */
-/* SUBMIT BUTTON */
-/* =============== */
-.submit-container {
-  margin: 25px auto;
-  text-align: center;
-  width: 100%;
-}
-
-button[type="submit"] {
-  padding: 12px 30px;
-  font-family: "Rubik", sans-serif;
-  cursor: pointer;
-  background: var(--nav_color);
-  color: var(--text_light);
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  transition: all 0.3s;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  min-width: 200px;
-}
-
-button[type="submit"]:hover {
-  background: var(--button_hover);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-}
-
-button[type="submit"]:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 3px rgba(0,0,0,0.1);
-}
-
-/* =============== */
-/* ANIMATIONS */
-/* =============== */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* =============== */
-/* RESPONSIVE DESIGN */
-/* =============== */
-@media (max-width: 768px) {
-  .cards-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 0 15px;
+  #map {
+    height: 87.5vh;
+    width: 100vw;
   }
-  
-  .card-drop {
-    width: 100%;
+
+  a:visited {
+    color: purple;
   }
-  
-  .front_page_text {
-    font-size: 1.1rem;
-    line-height: 1.6;
+
+  a:active {
+    color: blue;
   }
-  
-  button[type="submit"] {
-    width: 100%;
-    padding: 15px;
+
+  a:link {
+    color: purple;
   }
-}
+
+    /* Winky Rough Font */
+    .winky-rough{
+      font-family: "Winky Rough", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: normal;
+    }
+
+    /* Funnel Display Font */
+    .funnel-display {
+      font-family: "Funnel Display", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: normal;
+    }
+
+    /* Rubik Font */
+    .rubik {
+      font-family: "Rubik", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: normal;
+    }
+
+      /* Nav bar */
+      .topnav {
+        background-color:blueviolet;
+        padding: 10px;
+        font-family: "Funnel Display", sans-serif;
+        display: flex;
+        justify-content:space-between;
+        gap: 15px;
+      }
+
+      .titleNavBar a {
+        font-size: 16px;
+        color: white;
+
+      }
+
+      .secondaryLinkNavBar a {
+        font-size: 16px;
+        color:white;
+
+      }
+
+      .navBarFavicon {
+        width: 50px;
+        height: 16px;
+
+      }
+
+      .topnav a:hover {
+          color: black;
+          background-color: #ddd;
+      }
+
+      .topnav a:active {
+        color: black;
+        background-color: gray;
+
+      }
+
+      .topnav a {
+        text-decoration: none;
+      }
+
+        /* Main Function Front Page */
+
+        .front_page_text {
+          font-family: "Winky Rough", sans-serif;
+          text-align: center;
+          line-height: 175%;
+          margin-top: 5px;
+          margin-bottom: 20px;
+
+        }
+
+        .bottomSecondPageText {
+          font-family:"Funnel Display", sans-serif;
+          text-align: center;
+          font-weight: bold;
+          font-size: 17px;
+          margin-top:0px;
+          padding: 0px;
+          margin-bottom:0px;
+        }
 
 
+          /*
+          Previous Checkbox Code:
+
+          .checkBoxContainer {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            border: none;
+            font-family: "Rubik", sans-serif;
+            line-height: 200%;
+            margin: 10px;
+          }
+
+          fieldset {
+            border:none;
+          }
+            */
+          /* Form Container Mostly Written by Claude AI*/
+
+            .form-container {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+
+
+              font-family: "Rubik", sans-serif;
+              line-height: 300%;
+            }
+
+            .checkbox-group {
+              margin: 10px;
+              min-width: 250px;
+              max-width: 450px;
+            }
+
+            .checkbox-item {
+              margin-bottom: 15px;
+
+            }
+
+            fieldset {
+              border: none;
+            }
+
+            .submit-container {
+              margin-top: 10px;
+              margin-bottom: 20px;
+            }
+
+            button[type="submit"] {
+              padding: 8px 20px;
+              font-family: "Rubik", sans-serif;
+              cursor: pointer;
+            }
 
 /* Media Queries (9) - Mobile First Design  */
 
