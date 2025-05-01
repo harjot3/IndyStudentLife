@@ -39,127 +39,59 @@
 
         </div>
 
-        <p class="front_page_text">Easily Locate <b>Budget-Friendly Restauraunts</b> & <b>Study Spots</b> <br>
-                                    Near Universities and Colleges of <b>Indianapolis, IN</b></p>
-            <!--
-            <form action="map.html" method="get" class="form-container">
-            <div class="checkbox-group">
-                <fieldset>
-                    <legend style="text-align: center;">Choose Your Campus</legend>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="IUI" name="uni" value="IUI">
-                        <label for="IUI">Indiana University, Indianapolis</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="IVYTC" name="uni" value="IVYTC">
-                        <label for="IVYTC">Ivy Tech Community College</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="PUI" name="uni" value="PUI">
-                        <label for="PUI">Purdue University, Indianapolis</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="UIndy" name="uni" value="UIndy">
-                        <label for="UIndy">University of Indianapolis</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="MarianU" name="uni" value="MarianU">
-                        <label for="MarianU">Marian University</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="ButlerU" name="uni" value="ButlerU">
-                        <label for="ButlerU">Butler University</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="MartU" name="uni" value="MartU">
-                        <label for="MartU">Martin University</label>
-                    </div>
-                </fieldset>
-            </div>
+       <p class="front_page_text">Easily Locate <b>Budget-Friendly Restaurants</b> & <b>Study Spots</b> <br>
+Near Universities and Colleges of <b>Indianapolis, IN</b></p>
 
-            <div class="checkbox-group">
-                <fieldset
-                    <legend style="text-align: center;">Choose Your Spots</legend>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="Restaurants" name="spot" value="Restaurants">
-                        <label for="Restaurants">Restaurants</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="Study" name="spot" value="Study">
-                        <label for="Study">Study Spots</label>
-                    </div>
-                </fieldset>
-            </div>
+<!-- Card-Drop Version of Your Form -->
+<div class="cards-container">
+  <!-- Campus Selection Card -->
+  <div class="card-drop">
+    <a href="#" class="toggle">Choose Your Campus ▼</a>
+    <ul>
+      <li>
+        <label><input type="radio" name="uni" value="IUI" form="main-form" required> Indiana University, Indianapolis</label>
+      </li>
+      <li>
+        <label><input type="radio" name="uni" value="IVYTC" form="main-form"> Ivy Tech Community College</label>
+      </li>
+      <li>
+        <label><input type="radio" name="uni" value="PUI" form="main-form"> Purdue University, Indianapolis</label>
+      </li>
+      <li>
+        <label><input type="radio" name="uni" value="UIndy" form="main-form"> University of Indianapolis</label>
+      </li>
+      <li>
+        <label><input type="radio" name="uni" value="MarianU" form="main-form"> Marian University</label>
+      </li>
+      <li>
+        <label><input type="radio" name="uni" value="ButlerU" form="main-form"> Butler University</label>
+      </li>
+      <li>
+        <label><input type="radio" name="uni" value="MartU" form="main-form"> Martin University</label>
+      </li>
+    </ul>
+  </div>
 
-            <div class="submit-container">
-                <button type="submit">Enter</button>
-            </div>
-        </form>
-        -->
-        <form action="map.html" method="get" class="form-container" >
-            <div class="checkbox-group">
-                <fieldset>
-                    <legend><b>Choose Your Campus</b></legend>
+  <!-- Location Type Selection Card -->
+  <div class="card-drop">
+    <a href="#" class="toggle">Choose Location Type ▼</a>
+    <ul>
+      <li>
+        <label><input type="checkbox" name="spot" value="Food" form="main-form" required> Restaurants</label>
+      </li>
+      <li>
+        <label><input type="checkbox" name="spot" value="Study" form="main-form"> Study Spots</label>
+      </li>
+    </ul>
+  </div>
+</div>
 
-                        <div class="checkbox-item">
-                            <input type="radio" id="IUI" name="uni" value="IUI" required>
-                                <label for="IUI">Indiana University, Indianapolis</label>
-                        </div>
-
-                        <div class="checkbox-item">
-                            <input type="radio" id="IVYTC" name="uni" value="IVYTC">
-                                <label for="IVYTC">Ivy Tech Community College</label>
-                        </div>
-
-                        <div class="checkbox-item">
-                            <input type="radio" id="PUI" name="uni" value="PUI">
-                                <label for="PUI">Purdue University, Indianapolis</label>
-                        </div>
-
-                        <div class="checkbox-item">
-                            <input type="radio" id="UIndy" name="uni" value="UIndy">
-                                <label for="UIndy">University of Indianapolis</label>
-                        </div>
-
-                        <div class="checkbox-item">
-                            <input type="radio" id="MarianU" name="uni" value="MarianU">
-                                <label for="MarianU">Marian University</label>
-                        </div>
-
-                        <div class="checkbox-item">
-                            <input type="radio" id="ButlerU" name="uni" value="ButlerU">
-                                <label for="ButlerU">Butler University</label>
-                        </div>
-
-                        <div class="checkbox-item">
-                            <input type="radio" id="MartU" name="uni" value="MartU">
-                                <label for="MartU">Martin University</label>
-                        </div>
-
-                </fieldset>
-            </div>
-
-            <div class="checkbox-group">
-                <fieldset>
-                    <legend><b>Choose Your Location</b></legend>
-
-                        <div class="checkbox-item">
-                            <input type="checkbox" name="spot" id="Food" value="Food" required>
-                                <label for="Food">Restaurants</label>
-                        </div>
-
-                        <div class="checkbox-item">
-                            <input type="checkbox" name="spot" id="Study" value="Study">
-                                <label for="Study">Study Spots</label>
-                        </div>
-
-                        <div class="submit-container">
-                            <button type="submit">Enter</button>
-                        </div>
-
-                </fieldset>
-            </div>
-        </form>
+<!-- Hidden Form for Submission -->
+<form action="map.html" method="get" id="main-form" class="form-container">
+  <div class="submit-container">
+    <button type="submit">Enter</button>
+  </div>
+</form> 
 
 
     </body>
