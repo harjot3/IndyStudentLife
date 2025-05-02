@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Ivy Tech Indianapolis NMC Library",
+        "address": "2725 N Illinois St, Indianapolis, IN 46208",
+        "latitude": 39.806012992799914,
+        "longitude": -86.15842735161588,
+        "milesFromCampus": 4.0,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+        {
+        "name": "Virginia B. Fairbanks Art & Nature Park",
+        "address": "1850 W 38th St, Indianapolis, IN 46228",
+        "latitude": 39.826350304939886,
+        "longitude": -86.18950260185382,
+        "milesFromCampus": 1.7,
+        "studyEnvironment": "Moderate noise",
+        "hasWifi": false,
+        "dateInfoEntered": "2025-04-30"
+    },
+        {
+        "name": "Marian University Library - Mother Theresa Hackelmeier Memorial Library",
+        "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
+        "latitude": 39.81451394578796,
+        "longitude": -86.20316684127393,
+        "milesFromCampus": 0.1,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+    {
+        "name": "Riverside Park",
+        "address": "2420 E Riverside Dr, Indianapolis, IN 46202",
+        "latitude": 39.80347317678374,
+        "longitude": -86.19368505107022,
+        "milesFromCampus": 1.2,
+        "studyEnvironment": "Moderate noise",
+        "hasWifi": false,
+        "dateInfoEntered": "2025-04-30"
+    }
+]

@@ -1,9 +1,27 @@
 console.log('Hello!');
 
-// Get URL parameters
 const search_bar = new URLSearchParams(window.location.search);
+// Get URL parameters
 var selectedUni = search_bar.get("uni"); //
 const selectedPlace = search_bar.getAll("spot"); // // Returns Array of Spots Selected ['Food', 'Study']
+var boolPage;
+
+// sending user back to home page if they don't select location
+if (window.location.pathname === '/map.html') {
+    if (selectedPlace.length === 0) {
+        window.location.href = 'index.html';
+
+        localStorage.setItem("NoSpotSelected" , "true");
+    }
+}
+// if the user doesn't select location, CSS will change (maybe border, text, etc.)
+document.addEventListener("DOMContentLoaded", myfunction2);
+function myfunction2() {
+    if (localStorage.getItem("NoSpotSelected") === "true") {
+        document.getElementById("demo4").classList.add("locationSelected")
+    }
+    localStorage.setItem("NoSpotSelected" , "false");
+}
 
 for (let x of selectedPlace) {
     console.log(x);
@@ -177,6 +195,6 @@ function addMarkers(university, place) {
     }
 }
 
+
+
 createMap(undefined, undefined, undefined, selectedUni, selectedPlace);
-console.log("bye world");
-document.getElementById("demo").innerText = "Team Green hopes you have a great day!";

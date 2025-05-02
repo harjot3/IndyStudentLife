@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Ivy Tech Indianapolis NMC Library",
+        "address": "2725 N Illinois St, Indianapolis, IN 46208",
+        "latitude": 39.806012992799914,
+        "longitude": -86.15842735161588,
+        "milesFromCampus": 0.2,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+        {
+        "name": "Indianapolis Public Library - Central Library",
+        "address": "40 E St Clair St, Indianapolis, IN 46204",
+        "latitude": 39.779142482532976,
+        "longitude": -86.15697936902303,
+        "milesFromCampus": 2.0,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+    {
+        "name": "Indianapolis Public Library - Spades Park Branch",
+        "address": "1801 Nowland Ave, Indianapolis, IN 46201",
+        "latitude": 39.78541071142565,
+        "longitude": -86.12907069290532,
+        "milesFromCampus": 3.3,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+    {
+        "name": "Indianapolis Public Library - College Avenue Branch",
+        "address": "4180 N College Ave, Indianapolis, IN 46205",
+        "latitude": 39.8328867276444,
+        "longitude": -86.14524889901274,
+        "milesFromCampus": 2.7,
+        "studyEnvironment": "Quiet",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+    {
+        "name": "Tea's Me Cafe",
+        "address": "3967 N Illinois St, Indianapolis, IN 46208",
+        "latitude": 39.82765137440654,
+        "longitude": -86.15896456320978,
+        "milesFromCampus": 1.5,
+        "studyEnvironment": "Moderate noise",
+        "hasWifi": true,
+        "dateInfoEntered": "2025-04-30"
+    },
+    {
+        "name": "Virginia B. Fairbanks Art & Nature Park",
+        "address": "1850 W 38th St, Indianapolis, IN 46228",
+        "latitude": 39.826350304939886,
+        "longitude": -86.18950260185382,
+        "milesFromCampus": 1.7,
+        "studyEnvironment": "Moderate noise",
+        "hasWifi": false,
+        "dateInfoEntered": "2025-04-30"
+    }
+]
