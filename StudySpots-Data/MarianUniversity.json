@@ -1,152 +1,156 @@
 [
-    {
-      "name": "Mother Theresa Hackelmeier Memorial Library",
-      "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
-      "latitude": 39.8117,
-      "longitude": -86.2024,
-      "milesFromCampus": 0.0,
-      "studyEnvironment": "Quiet",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Starbucks at Marian University",
-      "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
-      "latitude": 39.8125,
-      "longitude": -86.2031,
-      "milesFromCampus": 0.1,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Marian University Student Success Center",
-      "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
-      "latitude": 39.8129,
-      "longitude": -86.2043,
-      "milesFromCampus": 0.1,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Marian Hall Study Lounge",
-      "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
-      "latitude": 39.8115,
-      "longitude": -86.2035,
-      "milesFromCampus": 0.1,
-      "studyEnvironment": "Quiet",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Evans Center Cafe",
-      "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
-      "latitude": 39.8121,
-      "longitude": -86.2019,
-      "milesFromCampus": 0.1,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Riverside Park Library Branch",
-      "address": "2420 E Riverside Dr, Indianapolis, IN 46208",
-      "latitude": 39.8034,
-      "longitude": -86.1854,
-      "milesFromCampus": 1.1,
-      "studyEnvironment": "Quiet",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Coffee on Michigan",
-      "address": "3101 W Michigan St, Indianapolis, IN 46222",
-      "latitude": 39.7861,
-      "longitude": -86.2092,
-      "milesFromCampus": 1.8,
-      "studyEnvironment": "Relaxed",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Nina's Cafe",
-      "address": "3102 W 16th St, Indianapolis, IN 46222",
-      "latitude": 39.7855,
-      "longitude": -86.2106,
-      "milesFromCampus": 1.7,
-      "studyEnvironment": "Relaxed",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Cold Spring Coffee House",
-      "address": "3300 Cold Spring Rd, Indianapolis, IN 46222",
-      "latitude": 39.8142,
-      "longitude": -86.2026,
-      "milesFromCampus": 0.2,
-      "studyEnvironment": "Relaxed",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Eagle Creek Coffee Company",
-      "address": "5625 N Michigan Rd, Indianapolis, IN 46228",
-      "latitude": 39.8437,
-      "longitude": -86.2073,
-      "milesFromCampus": 2.0,
-      "studyEnvironment": "Relaxed",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Westside Park",
-      "address": "820 N Tibbs Ave, Indianapolis, IN 46222",
-      "latitude": 39.7798,
-      "longitude": -86.2089,
-      "milesFromCampus": 2.0,
-      "studyEnvironment": "Outdoor",
-      "hasWifi": false,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Daredevil Brewing Co",
-      "address": "1151 N Main St, Speedway, IN 46224",
-      "latitude": 39.7851,
-      "longitude": -86.2430,
-      "milesFromCampus": 2.4,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Diversity Park Community Center",
-      "address": "2700 N Harding St, Indianapolis, IN 46208",
-      "latitude": 39.8027,
-      "longitude": -86.1974,
-      "milesFromCampus": 0.7,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Cardinal Coffee Shop",
-      "address": "3250 Cold Spring Rd, Indianapolis, IN 46222",
-      "latitude": 39.8133,
-      "longitude": -86.2052,
-      "milesFromCampus": 0.2,
-      "studyEnvironment": "Relaxed",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Indianapolis Motor Speedway Museum Cafe",
-      "address": "4790 W 16th St, Indianapolis, IN 46222",
-      "latitude": 39.7954,
-      "longitude": -86.2351,
-      "milesFromCampus": 2.2,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    }
-  ]
+  {
+    "name": "Mother Theresa Hackelmeier Memorial Library",
+    "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
+    "latitude": 39.8117,
+    "longitude": -86.2024,
+    "milesFromCampus": 0.0,
+    "studyEnvironment": "Quiet",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.marian.edu/library/about"
+  },
+  {
+    "name": "Starbucks at Marian University",
+    "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
+    "latitude": 39.8125,
+    "longitude": -86.2031,
+    "milesFromCampus": 0.1,
+    "studyEnvironment": "Moderate",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://marian.campusdish.com/en/locationsandmenus/indianapolis/starbucks/"
+  },
+  {
+    "name": "Marian Hall Study Lounge",
+    "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
+    "latitude": 39.8115,
+    "longitude": -86.2035,
+    "milesFromCampus": 0.1,
+    "studyEnvironment": "Quiet",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.marian.edu/campus-life/residential-and-commuter-life/on-campus-housing-options"
+  },
+  {
+    "name": "Evans Center Cafe",
+    "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
+    "latitude": 39.8121,
+    "longitude": -86.2019,
+    "milesFromCampus": 0.1,
+    "studyEnvironment": "Moderate",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://marian.campusdish.com/LocationsAndMenus/Indianapolis/PODMarket"
+  },
+  {
+    "name": "Riverside Park Library Branch",
+    "address": "2420 E Riverside Dr, Indianapolis, IN 46208",
+    "latitude": 39.8034,
+    "longitude": -86.1854,
+    "milesFromCampus": 1.1,
+    "studyEnvironment": "Quiet",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.indypl.org/locations"
+  },
+  {
+    "name": "Coffee on Michigan",
+    "address": "3101 W Michigan St, Indianapolis, IN 46222",
+    "latitude": 39.7861,
+    "longitude": -86.2092,
+    "milesFromCampus": 1.8,
+    "studyEnvironment": "Relaxed",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.yelp.com/biz/coffee-on-michigan-indianapolis"
+  },
+  {
+    "name": "Nina's Cafe",
+    "address": "3102 W 16th St, Indianapolis, IN 46222",
+    "latitude": 39.7855,
+    "longitude": -86.2106,
+    "milesFromCampus": 1.7,
+    "studyEnvironment": "Relaxed",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.yelp.com/biz/ninas-place-beech-grove"
+  },
+  {
+    "name": "Cold Spring Coffee House",
+    "address": "3300 Cold Spring Rd, Indianapolis, IN 46222",
+    "latitude": 39.8142,
+    "longitude": -86.2026,
+    "milesFromCampus": 0.2,
+    "studyEnvironment": "Relaxed",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.instagram.com/coldspringcoffeehouse/"
+  },
+  {
+    "name": "Eagle Creek Coffee Company",
+    "address": "5625 N Michigan Rd, Indianapolis, IN 46228",
+    "latitude": 39.8437,
+    "longitude": -86.2073,
+    "milesFromCampus": 2.0,
+    "studyEnvironment": "Relaxed",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.yelp.com/biz/eagle-creek-coffee-company-zionsville"
+  },
+  {
+    "name": "Westside Park",
+    "address": "820 N Tibbs Ave, Indianapolis, IN 46222",
+    "latitude": 39.7798,
+    "longitude": -86.2089,
+    "milesFromCampus": 2.0,
+    "studyEnvironment": "Outdoor",
+    "hasWifi": false,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.yelp.com/biz/westside-park-greenwood"
+  },
+  {
+    "name": "Daredevil Brewing Co",
+    "address": "1151 N Main St, Speedway, IN 46224",
+    "latitude": 39.7851,
+    "longitude": -86.2430,
+    "milesFromCampus": 2.4,
+    "studyEnvironment": "Moderate",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://daredevilbeer.com/taproom/"
+  },
+  {
+    "name": "Diversity Park Community Center",
+    "address": "2700 N Harding St, Indianapolis, IN 46208",
+    "latitude": 39.8027,
+    "longitude": -86.1974,
+    "milesFromCampus": 0.7,
+    "studyEnvironment": "Moderate",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://indyencyclopedia.org/diversity-center/"
+  },
+  {
+    "name": "Cardinal Coffee Shop",
+    "address": "3250 Cold Spring Rd, Indianapolis, IN 46222",
+    "latitude": 39.8133,
+    "longitude": -86.2052,
+    "milesFromCampus": 0.2,
+    "studyEnvironment": "Relaxed",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.yelp.com/biz/cosmic-cardinal-cafe-indianapolis"
+  },
+  {
+    "name": "Indianapolis Motor Speedway Museum Cafe",
+    "address": "4790 W 16th St, Indianapolis, IN 46222",
+    "latitude": 39.7954,
+    "longitude": -86.2351,
+    "milesFromCampus": 2.2,
+    "studyEnvironment": "Moderate",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://imsmuseum.org/visit/plan-your-visit/"
+  }
+]

@@ -1,142 +1,102 @@
 [
-    {
-      "name": "Irwin Library",
-      "address": "4600 Sunset Ave, Indianapolis, IN 46208",
-      "latitude": 39.8401,
-      "longitude": -86.1714,
-      "milesFromCampus": 0.2,
-      "studyEnvironment": "Quiet",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Starbucks - Butler University",
-      "address": "4702 Sunset Ave, Indianapolis, IN 46208",
-      "latitude": 39.8410,
-      "longitude": -86.1758,
-      "milesFromCampus": 0.1,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "SoBro Coffee",
-      "address": "5347 N College Ave, Indianapolis, IN 46220",
-      "latitude": 39.8432,
-      "longitude": -86.1513,
-      "milesFromCampus": 1.3,
-      "studyEnvironment": "Relaxed",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Hubbard & Cravens Coffee and Tea",
-      "address": "4930 N Pennsylvania St, Indianapolis, IN 46205",
-      "latitude": 39.8407,
-      "longitude": -86.1571,
-      "milesFromCampus": 0.9,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Prufrock Coffee Company",
-      "address": "5168 N College Ave, Indianapolis, IN 46205",
-      "latitude": 39.8397,
-      "longitude": -86.1482,
-      "milesFromCampus": 1.4,
-      "studyEnvironment": "Relaxed",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Foundation Coffee Company",
-      "address": "4565 N College Ave, Indianapolis, IN 46205",
-      "latitude": 39.8350,
-      "longitude": -86.1481,
-      "milesFromCampus": 1.5,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Mama's Table Cafe",
-      "address": "2846 E 45th St, Indianapolis, IN 46205",
-      "latitude": 39.8405,
-      "longitude": -86.1338,
-      "milesFromCampus": 2.2,
-      "studyEnvironment": "Relaxed",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Broad Ripple Library Branch",
-      "address": "6350 Guilford Ave, Indianapolis, IN 46220",
-      "latitude": 39.8686,
-      "longitude": -86.1431,
-      "milesFromCampus": 2.3,
-      "studyEnvironment": "Quiet",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Glendale Library Branch",
-      "address": "6101 N Keystone Ave, Indianapolis, IN 46220",
-      "latitude": 39.8643,
-      "longitude": -86.1298,
-      "milesFromCampus": 2.5,
-      "studyEnvironment": "Quiet",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Calvin Fletcher's Coffee Company",
-      "address": "647 Virginia Ave, Indianapolis, IN 46203",
-      "latitude": 39.8138,
-      "longitude": -86.1440,
-      "milesFromCampus": 2.4,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Monon Coffee Company",
-      "address": "920 E Westfield Blvd, Indianapolis, IN 46220",
-      "latitude": 39.8732,
-      "longitude": -86.1417,
-      "milesFromCampus": 2.4,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Butler Arts Center Study Space",
-      "address": "4602 Sunset Ave, Indianapolis, IN 46208",
-      "latitude": 39.8415,
-      "longitude": -86.1731,
-      "milesFromCampus": 0.1,
-      "studyEnvironment": "Quiet",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Newcomb Hall Study Lounge",
-      "address": "4550 Sunset Ave, Indianapolis, IN 46208",
-      "latitude": 39.8397,
-      "longitude": -86.1751,
-      "milesFromCampus": 0.1,
-      "studyEnvironment": "Moderate",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    },
-    {
-      "name": "Lincoln Commons",
-      "address": "5201 Washington Blvd, Indianapolis, IN 46220",
-      "latitude": 39.8443,
-      "longitude": -86.1578,
-      "milesFromCampus": 1.0,
-      "studyEnvironment": "Relaxed",
-      "hasWifi": true,
-      "dateInfoEntered": "2025-05-03"
-    }
+  {
+    "name": "Irwin Library",
+    "address": "4600 Sunset Ave, Indianapolis, IN 46208",
+    "latitude": 39.8401,
+    "longitude": -86.1714,
+    "milesFromCampus": 0.2,
+    "studyEnvironment": "Quiet",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link" : "https://www.butler.edu/library/spaces/irwin/"
+  },
+  {
+    "name": "Starbucks - Butler University",
+    "address": "4702 Sunset Ave, Indianapolis, IN 46208",
+    "latitude": 39.8410,
+    "longitude": -86.1758,
+    "milesFromCampus": 0.1,
+    "studyEnvironment": "Moderate",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "Starbucks - Butler University"
+  },
+  {
+    "name": "Hubbard & Cravens Coffee and Tea",
+    "address": "4930 N Pennsylvania St, Indianapolis, IN 46205",
+    "latitude": 39.8407,
+    "longitude": -86.1571,
+    "milesFromCampus": 0.9,
+    "studyEnvironment": "Moderate",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.hubbardandcravens.com/locations"
+  },
+  {
+    "name": "Prufrock Coffee Company",
+    "address": "5168 N College Ave, Indianapolis, IN 46205",
+    "latitude": 39.8397,
+    "longitude": -86.1482,
+    "milesFromCampus": 1.4,
+    "studyEnvironment": "Relaxed",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.yelp.com/biz/prufrock-coffee-company-indianapolis"
+  },
+  {
+    "name": "Mama's Table Cafe",
+    "address": "2846 E 45th St, Indianapolis, IN 46205",
+    "latitude": 39.8405,
+    "longitude": -86.1338,
+    "milesFromCampus": 2.2,
+    "studyEnvironment": "Relaxed",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.yelp.com/biz/mama-ms-table-macy"
+  },
+  {
+    "name": "Broad Ripple Library Branch",
+    "address": "6350 Guilford Ave, Indianapolis, IN 46220",
+    "latitude": 39.8686,
+    "longitude": -86.1431,
+    "milesFromCampus": 2.3,
+    "studyEnvironment": "Quiet",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.indypl.org/locations/broad-ripple"
+  },
+  {
+    "name": "Glendale Library Branch",
+    "address": "6101 N Keystone Ave, Indianapolis, IN 46220",
+    "latitude": 39.8643,
+    "longitude": -86.1298,
+    "milesFromCampus": 2.5,
+    "studyEnvironment": "Quiet",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.indypl.org/locations/glendale"
+  },
+  {
+    "name": "Calvin Fletcher's Coffee Company",
+    "address": "647 Virginia Ave, Indianapolis, IN 46203",
+    "latitude": 39.8138,
+    "longitude": -86.1440,
+    "milesFromCampus": 2.4,
+    "studyEnvironment": "Moderate",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.cfcoffeecompany.com/"
+  },
+  {
+    "name": "Monon Coffee Company",
+    "address": "920 E Westfield Blvd, Indianapolis, IN 46220",
+    "latitude": 39.8732,
+    "longitude": -86.1417,
+    "milesFromCampus": 2.4,
+    "studyEnvironment": "Moderate",
+    "hasWifi": true,
+    "dateInfoEntered": "2025-05-03",
+    "link": "https://www.mononcoffee.com/"
+  },
 ]
+
