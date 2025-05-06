@@ -6,7 +6,8 @@
         "longitude": -86.149195,
         "milesFromCampus": 1.9,
         "name": "Domino's",
-        "price": "$"
+        "price": "$",
+        "link": "https://pizza.dominos.com/indiana/indianapolis/501-e-38th-street"
     },
     {
         "address": "2402 N Meridian St, Indianapolis, IN 46208",
@@ -15,7 +16,8 @@
         "longitude": -86.15706644051086,
         "milesFromCampus": 0.3,
         "name": "Jimmy John's",
-        "price": "$"
+        "price": "$",
+        "link":"https://locations.jimmyjohns.com/in/indianapolis/sandwiches-2342.html?utm_source=google%20my%20business&utm_medium=organic&utm_campaign=website%20link"
     },
     {
         "address": "2330 N Meridian St, Indianapolis, IN 46208",
@@ -24,7 +26,8 @@
         "longitude": -86.15733233652948,
         "milesFromCampus": 0.3,
         "name": "Lincoln Square Pancake House",
-        "price": "$"
+        "price": "$",
+        "link":"https://www.eatatlincolnsquare.com/meridian/"
     },
     {
         "address": "2245 N Meridian St, Indianapolis, IN 46208",
@@ -33,7 +36,8 @@
         "longitude": -86.15675297939296,
         "milesFromCampus": 0.5,
         "name": "Wendy's",
-        "price": "$"
+        "price": "$",
+        "link":"https://locations.wendys.com/united-states/in/indianapolis/2245-n-meridian-st"
     },
     {
         "address": "2515 Doctor M.L.K. Jr St, Indianapolis, IN 46208",
@@ -42,7 +46,8 @@
         "longitude": -86.17025878455209,
         "milesFromCampus": 0.7,
         "name": "Bar-B-Q Heaven",
-        "price": "$"
+        "price": "$",
+        "link" : "https://barbqueheaven1952.com/"
     },
     {
         "address": "1164 W 30th St, Indianapolis, IN 46208",
@@ -51,7 +56,8 @@
         "longitude": -86.18266940134451,
         "milesFromCampus": 1.5,
         "name": "Circle City Soul Food",
-        "price": "$"
+        "price": "$",
+        "link" : "https://www.circlecitysoulfood.com/"
     },
     {
         "address": "907 Indiana Ave Ste A, Indianapolis, IN 46204",
@@ -60,114 +66,127 @@
         "longitude": -86.1727643587789,
         "milesFromCampus": 2.2,
         "name": "QDOBA Mexican Eats",
-        "price": "$"
+        "price": "$",
+        "link": "https://locations.qdoba.com/us/in/indianapolis/907-indiana-ave"
     },
     {
+        "name": "Panda Express",
         "address": "645 Oscar Robertson Blvd, Indianapolis, IN 46202",
-        "dateInfoEntered": "2025-04-21",
         "latitude": 39.78173428859545,
         "longitude": -86.17049740245514,
         "milesFromCampus": 2.0,
-        "name": "Panda Express",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://www.pandaexpress.com/locations/in/indianapolis/1897"
     },
     {
+        "name": "Hardee's",
         "address": "710 W 10th St, Indianapolis, IN 46202",
-        "dateInfoEntered": "2025-04-21",
         "latitude": 39.781269874766934,
         "longitude": -86.17100122812957,
         "milesFromCampus": 2.0,
-        "name": "Hardee's",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://locations.hardees.com/in/indianapolis/710-w-10th-st/"
     },
     {
+        "name": "McDonald's",
         "address": "37 W 38th St, Indianapolis, IN 46208",
-        "dateInfoEntered": "2025-04-21",
         "latitude": 39.82467210609305,
         "longitude": -86.15843498373575,
         "milesFromCampus": 1.5,
-        "name": "McDonald's",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://www.mcdonalds.com/us/en-us/location/in/indianapolis/37-w-38th-st/6087.html"
     },
     {
+        "name": "Chick-fil-A",
         "address": "420 University Blvd Ste 120, Indianapolis, IN 46202",
-        "dateInfoEntered": "2025-04-21",
         "latitude": 39.775263410222614,
         "longitude": -86.17610294851848,
         "milesFromCampus": 2.5,
-        "name": "Chick-fil-A",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://www.chick-fil-a.com/locations/in/indiana-university-indianapolis"
     },
     {
+        "name": "Shake Shack",
         "address": "167 W New York St, Indianapolis, IN 46204",
-        "dateInfoEntered": "2025-04-21",
         "latitude": 39.77177534616985,
         "longitude": -86.15477551415792,
         "milesFromCampus": 2.5,
-        "name": "Shake Shack",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://shakeshack.com/location/downtown-indianapolis-in"
     },
     {
+        "name": "Asian Harbor",
         "address": "203 W Michigan St, Indianapolis, IN 46204",
-        "dateInfoEntered": "2025-04-21",
         "latitude": 39.77424565534056,
         "longitude": -86.16187429348643,
         "milesFromCampus": 2.0,
-        "name": "Asian Harbor",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://www.asianharborind.com/"
     },
     {
+        "name": "Domino's Pizza",
         "address": "845 N Capitol Ave, Indianapolis, IN 46204",
-        "dateInfoEntered": "2025-04-21",
         "latitude": 39.77991541098178,
         "longitude": -86.16100563545054,
         "milesFromCampus": 1.6,
-        "name": "Domino's Pizza",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://pizza.dominos.com/indiana/indianapolis/845-north-capitol-avenue"
     },
     {
+        "name": "White Castle",
         "address": "102 W 16th St, Indianapolis, IN 46202",
-        "dateInfoEntered": "2025-04-21",
         "latitude": 39.789293993060184,
         "longitude": -86.15982810719055,
         "milesFromCampus": 1.1,
-        "name": "White Castle",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://www.whitecastle.com/locations/208"
     },
     {
+        "name": "Butler's Pizza",
         "address": "1220 Waterway Blvd, Indianapolis, IN 46202",
-        "dateInfoEntered": "2025-04-21",
         "latitude": 39.78541533338218,
         "longitude": -86.18367524344445,
         "milesFromCampus": 2.4,
-        "name": "Butler's Pizza",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://butlerpizza.com/"
     },
     {
-        "address": "926 Carrollton Ave, Indianapolis, IN 46202",
-        "dateInfoEntered": "2025-04-21",
+        "name": "The Garage Food Hall (Various Options)",
+        "address": "906 Carrollton Ave, Indianapolis, IN 46202",
         "latitude": 39.78041549555323,
         "longitude": -86.14379160607528,
         "milesFromCampus": 2.5,
-        "name": "The Garage Food Hall(Various Options)",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://www.garageindy.com/"
     },
     {
+        "name": "Subway",
         "address": "1634 E 10th St, Indianapolis, IN 46201",
-        "dateInfoEntered": "2025-04-21",
         "latitude": 39.78194137595351,
         "longitude": -86.13035792480636,
         "milesFromCampus": 2.5,
-        "name": "Subway",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://restaurants.subway.com/united-states/in/indianapolis/1634-east-10th-street"
     },
     {
+        "name": "Subway",
         "address": "2501 N Keystone Ave, Indianapolis, IN 46218",
-        "dateInfoEntered": "2025-04-21",
         "latitude": 39.80446763821514,
         "longitude": -86.1208353178046,
         "milesFromCampus": 2.3,
-        "name": "Subway",
-        "price": "$"
+        "price": "$",
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://restaurants.subway.com/united-states/in/indianapolis/5535-n-keystone-ave"
     }
 ]

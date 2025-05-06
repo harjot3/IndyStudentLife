@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<div style="font-size:20px;">
-=======
 <h1>About</h1>
->>>>>>> refs/remotes/origin/main
   
 Indy Student Life is a web application designed to help university and college students in Indianapolis, Indiana, 
 easily locate budget-friendly restaurants and study spots near their campuses. The application features an interactive map 
@@ -10,26 +6,6 @@ that displays locations within a 4000-meter (2.5 mile) radius of selected campus
 
 View Live Demo (https://harjot3.github.io/IndyStudentLife/)
 
-<<<<<<< HEAD
-Campus Selection: Choose from seven Indianapolis universities and colleges:
-
-Indiana University, Indianapolis, 
-Ivy Tech Community College, 
-Purdue University, Indianapolis, 
-University of Indianapolis, 
-Marian University, 
-Butler University, 
-Martin University 
-
-Location Types: Filter locations by:
-
-Restaurants (affordable dining options), Study Spots (places to study outside of campus)
-
-Interactive Map: Powered by Leaflet.js, displaying locations within 2.5 miles of the selected campus
-Mobile Responsive: Optimized for both desktop and mobile devices
-
-Technologies Used
-=======
 <h3>Campus Selection: Choose from seven Indianapolis universities and colleges:</h3>
 
   <li>Indiana University, Indianapolis</li>
@@ -42,27 +18,26 @@ Technologies Used
   
 <br>
 
-<h3>Location Types: Filter locations by:</h3>
+<h2>Location Types: Filter locations by:</h2>
 
   <li>Restaurants (affordable dining options)</li>
   <li>Study Spots (places to study outside of campus)</li>
 
-<h1>Technologies Used</h1>
->>>>>>> refs/remotes/origin/main
+<h2>Technologies Used</h1>
 
-Frontend: HTML, CSS, JavaScript
-Map Library: Leaflet.js
-Database: SQLite3
-Map Data: OpenStreetMap
-Development Tools:
+<li>Frontend: HTML, CSS, JavaScript</li>
+<li>Map Library: Leaflet.js</li>
+<li>Database: SQLite3</li>
+<li>Map Data: OpenStreetMap</li>
 
-Visual Studio Code
-DB Browser for SQLite
-Git/GitHub
-Discord (team communication)
-Trello (project management)
-Google Docs (documentation)
-<<<<<<< HEAD
-</div>
-=======
->>>>>>> refs/remotes/origin/main
+
+<h2>Development Tools:</h2>
+<li>Visual Studio Code</li>
+<li>DB Browser for SQLite</li>
+<li>Git/GitHub</li>
+<li>Discord (team communication)</li>
+<li>Trello (project management)</li>
+<li>Google Docs (documentation)</li>
+
+
+

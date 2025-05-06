@@ -4,28 +4,6 @@ const search_bar = new URLSearchParams(window.location.search);
 // Get URL parameters
 var selectedUni = search_bar.get("uni"); //
 const selectedPlace = search_bar.getAll("spot"); // // Returns Array of Spots Selected ['Food', 'Study']
-var boolPage;
-
-// sending user back to home page if they don't select location
-if (window.location.pathname === '/map.html') {
-    if (selectedPlace.length === 0) {
-        window.location.href = 'index.html';
-
-        localStorage.setItem("NoSpotSelected" , "true");
-    }
-}
-// if the user doesn't select location, CSS will change (maybe border, text, etc.)
-document.addEventListener("DOMContentLoaded", myfunction2);
-function myfunction2() {
-    if (localStorage.getItem("NoSpotSelected") === "true") {
-        document.getElementById("demo4").classList.add("locationSelected")
-    }
-    localStorage.setItem("NoSpotSelected" , "false");
-}
-
-for (let x of selectedPlace) {
-    console.log(x);
-}
 
 var circleColor = '#1E90FF';
 // Leaflet Map
@@ -68,45 +46,32 @@ var LeafIcon = L.Icon.extend({
     }
 });
 
-// red icon
+
+// Red, Green, Orange, Cutlery, Study, and School Icons/Markers
 var redIconObject = new LeafIcon({iconUrl: 'images/leaf-red.png'});
-// green icon
 var greenIconObject = new LeafIcon({iconUrl: 'images/leaf-green.png'});
-
-// orange icon
 var orangeIconObject = new LeafIcon({iconUrl: 'images/leaf-orange.png'});
-
-// cutlery Marker
 var cutleryMarker = new LeafIcon({iconUrl : 'images/cutlery.png', shadowUrl : null, iconSize : [40, 40]});
-
-// study marker
 var studyMarker = new LeafIcon({ iconUrl : 'images/book.png', shadowUrl : null, iconSize : [30, 30]});
-
-// school Markjer
 var schoolMarker = new LeafIcon({ iconUrl : 'images/school.png', shadowUrl : null, iconSize : [60, 95]});
 
 
 // Creating Map
 function createMap(lat = 39.7684, long = -86.1581, zoom_function = 11, university, place) {
-    console.log(arguments.length);
-    console.log(university === null);
-    console.log(place.length === 0);
     // Default coordinates are for Indianapolis, Indiana (39.7684° N, -86.1581° W)
 
-
-        // If there was a university selected
+        // If there was a university selected, get its lat, long, and zoom
         if (! (university === null) ) {
             lat = universities.get(university).latitude,
             long = universities.get(university).longitude,
             zoom_function = universities.get(university).zoom
         }
 
-        // Define the map's coordinates as per user inpu
+        // Define the map's coordinates as per user input
         var mapHash = {
             center: [lat, long],
             zoom: zoom_function
         };
-
 
         // Create the Leaflet map and set the tile layer
         map = new L.map('map', mapHash);
@@ -114,9 +79,11 @@ function createMap(lat = 39.7684, long = -86.1581, zoom_function = 11, universit
         {maxZoom: 40, attribution: '© OpenStreetMap' }).addTo(map);
 
 
+        if (place.length > 0) {
+            addMarkers(university, place);
+        }
         addIcons(university);
         addCircle(university);
-        addMarkers(university, place);
 
     // Return the created map if needed for further use
     return map;
@@ -128,11 +95,12 @@ function addIcons(university) {
     let lat = universities.get(university).latitude;
     let long = universities.get(university).longitude;
 
-    // orange icon
+    // school icon
     icon = L.marker([lat, long] , { icon : schoolMarker});
     icon.addTo(map);
 }
 
+// function to add circle
 function addCircle(university) {
     let lat = universities.get(university).latitude;
     let long = universities.get(university).longitude;
@@ -147,6 +115,7 @@ function addCircle(university) {
     circle.addTo(map);
 }
 
+//function to add markers to restauraunts and study spots
 function addMarkers(university, place) {
 
         for (let i of place ) {
@@ -168,22 +137,27 @@ function addMarkers(university, place) {
                 // loops through file containing data
                 for (let i = 0; i < data.length; i ++ ) {
                     var marker;
+                    var additional_info;
+                    var additional_info2;
 
                     let item = data[i];
 
                     if (!food) {
                         marker = L.marker([item.latitude, item.longitude], { icon: studyMarker });
+                        additional_info = `<b>Has WiFi:</b> ${item.hasWifi}<br>`;
                     } else {
                         marker = L.marker([item.latitude, item.longitude], { icon: cutleryMarker });
+                        additional_info = `<b>Price:</b> ${item.price}<br>`;
                     }
+                    additional_info2 = `<a href= ${item.link} target="_blank">Link</a`;
 
                     // creating text for each marker
                     const popupContent =
                         `<b>Name:</b> ${item.name}<br>` +
                         `<b>Address:</b> ${item.address}<br>` +
-                        `<b>Price:</b> ${item.price}<br>` +
                         `<b>Miles From Campus:</b> ${item.milesFromCampus}<br>` +
-                        `<b>Date Info Entered:</b> ${item.dateInfoEntered}<br>`
+                        `<b>Date Info Entered:</b> ${item.dateInfoEntered}<br>`+
+                        additional_info + additional_info2;
                         // `<a href="" target="_blank"></a>`;
 
                     marker.addTo(map).bindPopup(popupContent);
@@ -195,6 +169,6 @@ function addMarkers(university, place) {
     }
 }
 
-
-
 createMap(undefined, undefined, undefined, selectedUni, selectedPlace);
+
+console.log("Goodbye!")

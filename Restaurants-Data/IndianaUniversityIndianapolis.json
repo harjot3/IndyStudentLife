@@ -6,7 +6,8 @@
         "longitude": -86.173679,
         "milesFromCampus": 0.3,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://locations.tacobell.com/in/indianapolis/951-indiana-avenue.html"
     },
     {
         "name": "McDonald's",
@@ -15,7 +16,8 @@
         "longitude": -86.15695,
         "milesFromCampus": 1.6,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://www.mcdonalds.com/us/en-us/location/in/indianapolis/1611-n-meridian-st/4407.html"
     },
     {
         "name": "Delhi Palace",
@@ -24,7 +26,8 @@
         "longitude": -86.1729,
         "milesFromCampus": 0.3,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://www.yelp.com/biz/delhi-palace-indianapolis"
     },
     {
         "name": "City Barbeque",
@@ -33,7 +36,8 @@
         "longitude": -86.1715,
         "milesFromCampus": 0.5,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://www.citybbq.com/"
     },
     {
         "name": "Black Leaf Vegan",
@@ -42,7 +46,8 @@
         "longitude": -86.1650,
         "milesFromCampus": 0.8,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://www.blackleafvegan.com/"
     },
     {
         "name": "Downtown Olly's",
@@ -51,25 +56,18 @@
         "longitude": -86.1596,
         "milesFromCampus": 0.9,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
-    },
-    {
-        "name": "Yats",
-        "address": "910 W 10th St, Indianapolis, IN 46202",
-        "latitude": 39.7790,
-        "longitude": -86.1740,
-        "milesFromCampus": 0.4,
-        "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://downtownollys.net/"
     },
     {
         "name": "The Workingman's Friend",
-        "address": "234 N Belmont Ave, Indianapolis, IN 46222",
+        "address": "234 N Belmont Ave Indianapolis, IN 46222",
         "latitude": 39.7720,
         "longitude": -86.2020,
         "milesFromCampus": 1.5,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://www.yelp.com/biz/workingmans-friend-indianapolis"
     },
     {
         "name": "Nick's Chili Parlor",
@@ -78,16 +76,8 @@
         "longitude": -86.2080,
         "milesFromCampus": 2.3,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
-    },
-    {
-        "name": "Kountry Kitchen",
-        "address": "1831 N College Ave, Indianapolis, IN 46202",
-        "latitude": 39.7940,
-        "longitude": -86.1400,
-        "milesFromCampus": 2.0,
-        "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://www.nickschiliparlor.com/"
     },
     {
         "name": "Subito Soups",
@@ -96,16 +86,8 @@
         "longitude": -86.1550,
         "milesFromCampus": 1.0,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
-    },
-    {
-        "name": "Workingman's Friend",
-        "address": "234 N Belmont Ave, Indianapolis, IN 46222",
-        "latitude": 39.7720,
-        "longitude": -86.2020,
-        "milesFromCampus": 1.5,
-        "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://www.subitosoups.com/"
     },
     {
         "name": "Kountry Kitchen Soul Food Place",
@@ -114,7 +96,8 @@
         "longitude": -86.1410,
         "milesFromCampus": 2.0,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://www.kountrykitchenindy.com/"
     },
     {
         "name": "Gaucho's Fire",
@@ -123,7 +106,8 @@
         "longitude": -86.1450,
         "milesFromCampus": 1.8,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://express.gauchosfire.com/"
     },
     {
         "name": "Subito Soups",
@@ -132,7 +116,8 @@
         "longitude": -86.1570,
         "milesFromCampus": 1.2,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://www.subitosoups.com/"
     },
     {
         "name": "Burgeezy",
@@ -141,7 +126,8 @@
         "longitude": -86.1650,
         "milesFromCampus": 0.8,
         "price": "$",
-        "dateInfoEntered": "2025-04-20"
+        "dateInfoEntered": "2025-04-20",
+        "link": "https://www.burgeezy.com/"
     },
     {
         "name": "Chick-fil-A",
@@ -150,7 +136,8 @@
         "longitude": -86.17632497641569,
         "milesFromCampus": 0.4,
         "price": "$",
-        "dateInfoEntered": "2025-04-21"
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://www.chick-fil-a.com/locations/in/indiana-university-indianapolis"
     },
     {
         "name": "Wendy's",
@@ -159,7 +146,8 @@
         "longitude": -86.18652181312645,
         "milesFromCampus": 2.1,
         "price": "$",
-        "dateInfoEntered": "2025-04-21"
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://locations.wendys.com/united-states/in/indianapolis/1450-w-morris-street"
     },
     {
         "name": "Arby's",
@@ -168,7 +156,8 @@
         "longitude": -86.15715623464004,
         "milesFromCampus": 1.3,
         "price": "$",
-        "dateInfoEntered": "2025-04-21"
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://www.arbys.com/locations/us/in/indianapolis/45-e-south-st/store-7115/"
     },
     {
         "name": "Pronta Pizzeria",
@@ -177,7 +166,8 @@
         "longitude": -86.16445188198959,
         "milesFromCampus": 0.5,
         "price": "$",
-        "dateInfoEntered": "2025-04-21"
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://www.prontapizzeriamenu.com/"
     },
     {
         "name": "Popeyes Louisiana Kitchen",
@@ -186,7 +176,8 @@
         "longitude": -86.20887574708968,
         "milesFromCampus": 1.3,
         "price": "$",
-        "dateInfoEntered": "2025-04-21"
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://www.popeyes.com/store-locator/store/restaurant_84539?utm_source=yext&utm_medium=referral&utm_campaign=organic-local-listings"
     },
     {
         "name": "7 Coras",
@@ -195,7 +186,8 @@
         "longitude": -86.1960647082819,
         "milesFromCampus": 0.8,
         "price": "$",
-        "dateInfoEntered": "2025-04-21"
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://www.yelp.com/biz/7-coras-indianapolis"
     },
     {
         "name": "KFC",
@@ -204,6 +196,7 @@
         "longitude": -86.15624108518101,
         "milesFromCampus": 2.3,
         "price": "$",
-        "dateInfoEntered": "2025-04-21"
+        "dateInfoEntered": "2025-04-21",
+        "link": "https://locations.kfc.com/in/indianapolis/2401-n-meridian-st"
     }
 ]

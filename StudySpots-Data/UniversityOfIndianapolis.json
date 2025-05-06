@@ -1,62 +1,152 @@
 [
     {
-        "name": "University of Indianapolis Krannert Memorial Library",
-        "address": "1400 E Hanna Ave, Indianapolis, IN 46227",
-        "latitude": 39.710456580545625,
-        "longitude": -86.13658817718672,
-        "milesFromCampus": 0.1,
-        "studyEnvironment": "Quiet",
-        "hasWifi": true,
-        "dateInfoEntered": "2025-04-30"
-    },
-        {
-        "name": "Indianapolis Public Library - Garfield Park Branch",
-        "address": "2502 Shelby St, Indianapolis, IN 46203",
-        "latitude": 39.733323675384355,
-        "longitude": -86.13965607824895,
-        "milesFromCampus": 1.5,
-        "studyEnvironment": "Quiet",
-        "hasWifi": true,
-        "dateInfoEntered": "2025-04-30"
+      "name": "Krannert Memorial Library",
+      "address": "1400 E Hanna Ave, Indianapolis, IN 46227",
+      "latitude": 39.7095,
+      "longitude": -86.1345,
+      "milesFromCampus": 0.0,
+      "studyEnvironment": "Quiet",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
     },
     {
-        "name": "Indianapolis Public Library - Beech Grove Branch",
-        "address": "1102 Main St, Beech Grove, IN 46107",
-        "latitude": 39.723095948820166,
-        "longitude": -86.0948743449907,
-        "milesFromCampus": 2.5,
-        "studyEnvironment": "Quiet",
-        "hasWifi": true,
-        "dateInfoEntered": "2025-04-30"
+      "name": "Schwitzer Student Center",
+      "address": "1400 E Hanna Ave, Indianapolis, IN 46227",
+      "latitude": 39.7096,
+      "longitude": -86.1351,
+      "milesFromCampus": 0.1,
+      "studyEnvironment": "Moderate",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
     },
     {
-        "name": "7 Brew Coffee",
-        "address": "3710 S East St, Indianapolis, IN 46227",
-        "latitude": 39.71438217896549,
-        "longitude": -86.1495447627361,
-        "milesFromCampus": 0.8,
-        "studyEnvironment": "Moderate noise",
-        "hasWifi": true,
-        "dateInfoEntered": "2025-04-30"
+      "name": "Books & Brews - South Indy",
+      "address": "3808 Shelby St, Indianapolis, IN 46227",
+      "latitude": 39.7209,
+      "longitude": -86.1174,
+      "milesFromCampus": 1.2,
+      "studyEnvironment": "Relaxed",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
     },
     {
-        "name": "Normal Coffee",
-        "address": "1125 Cruft St, Indianapolis, IN 46203",
-        "latitude": 39.73101398940281,
-        "longitude": -86.13893100448863,
-        "milesFromCampus": 1.4,
-        "studyEnvironment": "Moderate noise",
-        "hasWifi": true,
-        "dateInfoEntered": "2025-04-30"
+      "name": "Garfield Park Library",
+      "address": "2502 Shelby St, Indianapolis, IN 46203",
+      "latitude": 39.7348,
+      "longitude": -86.1371,
+      "milesFromCampus": 1.6,
+      "studyEnvironment": "Quiet",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
     },
     {
-        "name": "Starbucks",
-        "address": "5943 S East St, Indianapolis, IN 46227",
-        "latitude": 39.680268488577035,
-        "longitude": -86.14864371335854,
-        "milesFromCampus": 2.3,
-        "studyEnvironment": "Moderate noise",
-        "hasWifi": true,
-        "dateInfoEntered": "2025-04-30"
+      "name": "Fountain Square Library",
+      "address": "1066 Virginia Ave, Indianapolis, IN 46203",
+      "latitude": 39.7529,
+      "longitude": -86.1411,
+      "milesFromCampus": 2.4,
+      "studyEnvironment": "Quiet",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
+    },
+    {
+      "name": "Calvin Fletcher's Coffee Company",
+      "address": "647 Virginia Ave, Indianapolis, IN 46203",
+      "latitude": 39.7635,
+      "longitude": -86.1489,
+      "milesFromCampus": 2.5,
+      "studyEnvironment": "Moderate",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
+    },
+    {
+      "name": "UIndy Writing Lab",
+      "address": "1400 E Hanna Ave, Indianapolis, IN 46227",
+      "latitude": 39.7091,
+      "longitude": -86.1342,
+      "milesFromCampus": 0.1,
+      "studyEnvironment": "Quiet",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
+    },
+    {
+      "name": "Mathspace Tutoring Center",
+      "address": "1400 E Hanna Ave, Indianapolis, IN 46227",
+      "latitude": 39.7099,
+      "longitude": -86.1347,
+      "milesFromCampus": 0.1,
+      "studyEnvironment": "Moderate",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
+    },
+    {
+      "name": "Lincoln's Coffee House",
+      "address": "2231 Shelby St, Indianapolis, IN 46203",
+      "latitude": 39.7412,
+      "longitude": -86.1417,
+      "milesFromCampus": 2.0,
+      "studyEnvironment": "Relaxed",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
+    },
+    {
+      "name": "Pleasant Run Branch Library",
+      "address": "1201 N Arlington Ave, Indianapolis, IN 46219",
+      "latitude": 39.7870,
+      "longitude": -86.0754,
+      "milesFromCampus": 2.3,
+      "studyEnvironment": "Quiet",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
+    },
+    {
+      "name": "Shelby Library Branch",
+      "address": "2502 Shelby St, Indianapolis, IN 46203",
+      "latitude": 39.7400,
+      "longitude": -86.1398,
+      "milesFromCampus": 1.9,
+      "studyEnvironment": "Quiet",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
+    },
+    {
+      "name": "UIndy Good Hall Study Lounge",
+      "address": "1400 E Hanna Ave, Indianapolis, IN 46227",
+      "latitude": 39.7092,
+      "longitude": -86.1338,
+      "milesFromCampus": 0.1,
+      "studyEnvironment": "Quiet",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
+    },
+    {
+      "name": "Beech Grove Public Library",
+      "address": "1102 Main St, Beech Grove, IN 46107",
+      "latitude": 39.7212,
+      "longitude": -86.0894,
+      "milesFromCampus": 2.5,
+      "studyEnvironment": "Quiet",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
+    },
+    {
+      "name": "Garfield Park Coffee Shop",
+      "address": "2136 Shelby St, Indianapolis, IN 46203",
+      "latitude": 39.7438,
+      "longitude": -86.1415,
+      "milesFromCampus": 2.2,
+      "studyEnvironment": "Relaxed",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
+    },
+    {
+      "name": "Hornet Park Community Center",
+      "address": "5245 Hornet Ave, Beech Grove, IN 46107",
+      "latitude": 39.7178,
+      "longitude": -86.1028,
+      "milesFromCampus": 1.8,
+      "studyEnvironment": "Moderate",
+      "hasWifi": true,
+      "dateInfoEntered": "2025-05-03"
     }
-]
+  ]

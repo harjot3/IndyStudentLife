@@ -6,7 +6,8 @@
         "longitude": -86.15861388161984,
         "milesFromCampus": 1.4,
         "name": "McDonald's",
-        "price": "$"
+        "price": "$",
+        "link": "https://www.mcdonalds.com/us/en-us/location/in/indianapolis/37-w-38th-st/6087.html"
     },
     {
         "address": "120 W 38th St, Indianapolis, IN 46208",
@@ -15,7 +16,8 @@
         "longitude": -86.15986910082509,
         "milesFromCampus": 1.4,
         "name": "Subway",
-        "price": "$"
+        "price": "$",
+        "link": "https://restaurants.subway.com/united-states/in/indianapolis/120-w-38th-st"
     },
     {
         "address": "3801 N College Ave, Indianapolis, IN 46205",
@@ -24,7 +26,8 @@
         "longitude": -86.1448762307696,
         "milesFromCampus": 2.1,
         "name": "Rally's",
-        "price": "$"
+        "price": "$",
+        "link": "https://locations.checkersandrallys.com/in/indianapolis/3801-n.-college"
     },
     {
         "address": "5603 N Michigan Rd, Indianapolis, IN 46228",
@@ -33,7 +36,8 @@
         "longitude": -86.19389362791951,
         "milesFromCampus": 2.6,
         "name": "Domino's Pizza",
-        "price": "$"
+        "price": "$",
+        "link": "https://pizza.dominos.com/indiana/indianapolis/5603-north-michigan-road"
     },
     {
         "address": "5617 N Michigan Rd, Indianapolis, IN 46228",
@@ -42,7 +46,8 @@
         "longitude": -86.19459127895922,
         "milesFromCampus": 2.7,
         "name": "McDonald's",
-        "price": "$"
+        "price": "$",
+        "link": "https://www.mcdonalds.com/us/en-us/location/in/indianapolis/5617-n-michigan-rd/36748.html"
     },
     {
         "address": "1950 Kessler Blvd W Dr Suite C, Indianapolis, IN 46228",
@@ -51,7 +56,8 @@
         "longitude": -86.19486508906496,
         "milesFromCampus": 2.8,
         "name": "Subway",
-        "price": "$"
+        "price": "$",
+        "link": "https://restaurants.subway.com/united-states/in/indianapolis/1950-kessler-blvd-west"
     },
     {
         "address": "5902 Michigan Rd, Indianapolis, IN 46228",
@@ -60,7 +66,8 @@
         "longitude": -86.19836246365682,
         "milesFromCampus": 3.1,
         "name": "Fisher Fish & Chicken",
-        "price": "$"
+        "price": "$",
+        "link": "https://michiganrd.fisherfishandchicken.com/"
     },
     {
         "address": "6003 Michigan Rd, Indianapolis, IN 46228",
@@ -69,7 +76,8 @@
         "longitude": -86.19791228688179,
         "milesFromCampus": 3.3,
         "name": "TAQUERIA EL CIELO",
-        "price": "$"
+        "price": "$",
+        "link": "https://www.yelp.com/biz/taqueria-el-cielo-indianapolis-2"
     },
     {
         "address": "501 E 38th St, Indianapolis, IN 46205",
@@ -78,7 +86,8 @@
         "longitude": -86.14954020449291,
         "milesFromCampus": 1.9,
         "name": "Domino's Pizza",
-        "price": "$"
+        "price": "$",
+        "link": "https://pizza.dominos.com/indiana/indianapolis/501-e-38th-street"
     },
     {
         "address": "23 E 38th St, Indianapolis, IN 46205",
@@ -87,7 +96,8 @@
         "longitude": -86.15593046416285,
         "milesFromCampus": 1.5,
         "name": "Big City Grill & Lemonade",
-        "price": "$"
+        "price": "$",
+        "link": "http://www.bigcitygrilllemonade.net/"
     },
     {
         "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
@@ -96,7 +106,8 @@
         "longitude": -86.20254147305903,
         "milesFromCampus": 2.9,
         "name": "Chick-fil-A",
-        "price": "$"
+        "price": "$",
+        "link":"https://www.chick-fil-a.com/locations/in/marian-university"
     },
     {
         "address": "3200 Cold Spring Rd, Indianapolis, IN 46222",
@@ -105,7 +116,8 @@
         "longitude": -86.20197271822597,
         "milesFromCampus": 2.9,
         "name": "Subway",
-        "price": "$"
+        "price": "$",
+        "link":"https://restaurants.subway.com/united-states/in/indianapolis/3200-cold-spring"
     },
     {
         "address": "1031 E 54th St, Indianapolis, IN 46220",
@@ -114,7 +126,8 @@
         "longitude": -86.14098322197844,
         "milesFromCampus": 1.5,
         "name": "Mama Carolla's",
-        "price": "$$"
+        "price": "$$",
+        "link": "https://www.mamacarollas.com/"
     },
     {
         "address": "4155 Boulevard Pl, Indianapolis, IN 46208",
@@ -123,7 +136,8 @@
         "longitude": -86.16352995854483,
         "milesFromCampus": 0.6,
         "name": "Hoagies and Hops Butler-Tarkington",
-        "price": "$"
+        "price": "$",
+        "link" : "https://hoagiesandhops.com/"
     },
     {
         "address": "4901 N Pennsylvania St, Indianapolis, IN 46205",
@@ -132,7 +146,8 @@
         "longitude": -86.15442702288904,
         "milesFromCampus": 0.5,
         "name": "Cafe Patachou",
-        "price": "$"
+        "price": "$",
+        "link": "https://www.cafepatachou.com/location/cafe-patachou-meridian-kessler/"
     },
     {
         "address": "5902 N College Ave, Indianapolis, IN 46220",
@@ -141,7 +156,8 @@
         "longitude": -86.14613502322462,
         "milesFromCampus": 2.3,
         "name": "Binkley's KItchen and Bar",
-        "price": "$$"
+        "price": "$$",
+        "link": "https://binkleyskitchenandbar.com/"
     },
     {
         "address": "5301 Winthrop Ave Suite B, Indianapolis, IN 46220",
@@ -150,7 +166,8 @@
         "longitude": -86.14105571733525,
         "milesFromCampus": 1.5,
         "name": "Half Liter BBQ",
-        "price": "$"
+        "price": "$",
+        "link":"https://halfliterbbq.com/"
     },
     {
         "address": "5615 N Illinois St, Indianapolis, IN 46208",
@@ -159,6 +176,7 @@
         "longitude": -86.15926368164195,
         "milesFromCampus": 0.8,
         "name": "Byrne's Grilled Pizza",
-        "price": "$"
+        "price": "$",
+        "link":"https://byrnespizza.com/"
     }
-]
+ ]
