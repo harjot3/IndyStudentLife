@@ -25,7 +25,7 @@ View Live Demo (https://harjot3.github.io/IndyStudentLife/)
 
 <h2>Technologies Used</h1>
 
-<li>Frontend: HTML, CSS, JavaScript</li>
+<li>Frontend: Static HTML, CSS, JavaScript</li>
 <li>Map Library: Leaflet.js</li>
 <li>Database: SQLite3</li>
 <li>Map Data: OpenStreetMap</li>
